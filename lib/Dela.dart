@@ -9,6 +9,6 @@ class dela extends StatefulWidget {
 class _delaState extends State<dela> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column();
   }
 }
