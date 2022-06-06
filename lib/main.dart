@@ -1,5 +1,6 @@
+import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreen.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/menu%20utama.dart';
 import 'package:flutter/material.dart';
-import 'Dela.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.lightGreen,
-      ),
-      home: const dela(),
+        title: "Healthy Food",
+        home: HomePage()
     );
   }
 }
