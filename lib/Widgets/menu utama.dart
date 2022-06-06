@@ -23,7 +23,10 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Resep\nUntukmu!", style: TextStyle(color: Colors.amber,fontSize: 25,fontWeight: FontWeight.bold),),
+                      Text("Resep\nUntukmu!", style: TextStyle(
+                          color: Colors.amber,
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold),),
                       Image.asset("assets/images/foto_profile.png", width: 50.0)
                     ],
                   )),
@@ -32,8 +35,10 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Text("Menu Idea", style: TextStyle(decoration: TextDecoration.underline, fontSize: 17.0),
-                      )],
+                      Text("Menu Idea", style: TextStyle(
+                          decoration: TextDecoration.underline, fontSize: 17.0),
+                      )
+                    ],
                   )),
               Padding(
                 padding: const EdgeInsets.all(12.0),
@@ -51,14 +56,15 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: (){},
+                                onTap: () {},
                                 splashColor: Colors.lightGreen,
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       children: [
-                                        Image.asset("assets/images/sarapan.png", width: 85.0),
+                                        Image.asset("assets/images/sarapan.png",
+                                            width: 85.0),
                                         SizedBox(height: 10.0),
                                         Text("Sarapan", style: TextStyle(
                                             color: Colors.black,
@@ -78,14 +84,16 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: (){},
+                                onTap: () {},
                                 splashColor: Colors.lightGreen,
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       children: [
-                                        Image.asset("assets/images/burger king.png", width: 74.0),
+                                        Image.asset(
+                                            "assets/images/burger king.png",
+                                            width: 74.0),
                                         SizedBox(height: 10.0),
                                         Text("Makan Siang", style: TextStyle(
                                             color: Colors.black,
@@ -105,14 +113,16 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: (){},
+                                onTap: () {},
                                 splashColor: Colors.lightGreen,
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       children: [
-                                        Image.asset("assets/images/ayam_bakar.png", width: 110.0),
+                                        Image.asset(
+                                            "assets/images/ayam_bakar.png",
+                                            width: 110.0),
                                         SizedBox(height: 10.0),
                                         Text("Makan Malam", style: TextStyle(
                                             color: Colors.black,
@@ -132,14 +142,15 @@ class _HomePageState extends State<HomePage> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: (){},
+                                onTap: () {},
                                 splashColor: Colors.lightGreen,
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       children: [
-                                        Image.asset("assets/images/snack.png", width: 85.0),
+                                        Image.asset("assets/images/snack.png",
+                                            width: 85.0),
                                         SizedBox(height: 10.0),
                                         Text("Snack", style: TextStyle(
                                             color: Colors.black,
