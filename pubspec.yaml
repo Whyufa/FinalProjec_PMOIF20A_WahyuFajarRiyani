@@ -30,6 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
   curved_navigation_bar: ^1.0.3
+  carousel_slider: ^4.1.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -66,6 +67,11 @@ flutter:
     - assets/images/burger king.png
     - assets/images/ayam_bakar.png
     - assets/images/snack.png
+    - assets/images/sop_kentang.png
+    - assets/images/under.png
+    - assets/images/ideal.png
+    - assets/images/overweight.png
+    - assets/images/obesityy.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
