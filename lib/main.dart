@@ -1,5 +1,6 @@
 import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreen.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/menu%20utama.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/sarapan.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: "Healthy Food",
-        home: MenuUtama()
+        home: MyHomePage()
     );
   }
 }
