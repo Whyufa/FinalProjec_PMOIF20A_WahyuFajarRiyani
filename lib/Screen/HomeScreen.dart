@@ -1,40 +1,47 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/profile.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/tips.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/rekomendasi.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/resep.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-
-import 'dart:io';
-import 'package:flutter/material.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import '../Widgets/MenuUtama.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _selectedIndex = 0;
+  final navigationKey = GlobalKey<CurvedNavigationBarState>();
+  int index = 0;
 
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
+  final screens = [
+    MenuUtama(),
+    Rekomendasi(),
+    Tips(),
+    Profile(),
+  ];
+
   @override
   Widget build(BuildContext context){
+    final items = <Widget>[
+      Icon(Icons.local_dining, color: Colors.white),
+      Icon(Icons.grade_outlined, color: Colors.white),
+      Icon(Icons.emoji_objects_outlined, color: Colors.white),
+      Icon(Icons.account_circle_outlined, color: Colors.white),
+    ];
+
     return Scaffold(
+      body: screens[index],
       bottomNavigationBar: CurvedNavigationBar(
-        items: <Widget>[
-          Icon(Icons.local_dining, size: 30, color: Colors.white,),
-          Icon(Icons.grade_outlined, size: 30, color: Colors.white),
-          Icon(Icons.emoji_objects_outlined, size: 30, color: Colors.white),
-          Icon(Icons.account_circle_outlined, size: 30, color: Colors.white)],
         color: Colors.lightGreen,
+        buttonBackgroundColor: Colors.lightGreen,
         backgroundColor: Colors.white,
-        onTap: (index) {
-          _onItemTapped(index);
-        },
-      ),
-    );
+        height: 60,
+        index: index,
+        items: items,
+        onTap: (index) => setState(() => this.index = index),
+        ),
+      );
   }
 }

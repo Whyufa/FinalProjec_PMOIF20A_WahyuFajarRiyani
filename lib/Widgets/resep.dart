@@ -17,18 +17,6 @@ class _ResepState extends State<Resep> {
             style: TextStyle(color: Colors.green),
           ),
       ),
-      body: Container (
-        padding: Column (
-          mainAxisAligment : MainAxisAligment.center,
-          children: <Widget> [
-            Image.asset ("assets/images/sup_kentang.png",
-              width: 380.0,
-              height: 160.0,
-              fit: BoxFit.cover,
-            ),
-          ],
-        ),
-      ),
     );
   }
 }
