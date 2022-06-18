@@ -29,6 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  curved_navigation_bar: ^1.0.3
+  carousel_slider: ^4.1.1
   google_fonts: ^1.0.0
   flutter_svg: ^0.22.0
   simple_shadow: ^0.2.0
@@ -63,6 +65,17 @@ flutter:
   assets:
      - assets/images/
      - assets/icon/
+    - assets/images/brand.png
+    - assets/images/foto_profile.png
+    - assets/images/sarapan.png
+    - assets/images/burger king.png
+    - assets/images/ayam_bakar.png
+    - assets/images/snack.png
+    - assets/images/sop_kentang.png
+    - assets/images/under.png
+    - assets/images/ideal.png
+    - assets/images/overweight.png
+    - assets/images/obesityy.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
