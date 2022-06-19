@@ -1,13 +1,20 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
-class Home extends StatelessWidget {
+class Add extends StatefulWidget {
+  @override
+  _AddState createState() => _AddState();
+}
 
+class _AddState extends State<Add> {
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        backgroundColor: Colors.green,
-        title: new Text("Branda"),
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.lightGreen,
+        title: Text(
+          'Menambahkan menu',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: new ListView(
           children: <Widget>[
@@ -24,4 +31,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
