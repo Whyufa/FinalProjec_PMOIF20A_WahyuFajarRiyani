@@ -1,21 +1,27 @@
-import "package:flutter/material.dart";
+import 'package:flutter/material.dart';
 
 class Rekomendasi extends StatefulWidget {
+  const Rekomendasi({Key? key}) : super(key: key);
+
   @override
-  _RekomendasiState createState() => _RekomendasiState();
+  State<Rekomendasi> createState() => _RekomendasiState();
 }
 
 class _RekomendasiState extends State<Rekomendasi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.lightGreen,
-        leading: Icon(Icons.arrow_back_ios, color: Colors.white),
-        title: Text(
-          'Rekomendasi',
-          style: TextStyle(color: Colors.white),
-        ),
+    return new Scaffold(
+      appBar: new AppBar(
+        backgroundColor: Colors.green,
+        title: new Text("Healty Food"),
+      ),
+      body: new ListView(
+        children: <Widget>[
+          new ListTile(
+            leading: new Icon(Icons.restaurant),
+            title: new Text("Restaurant"),
+          ),
+        ],
       ),
     );
   }
