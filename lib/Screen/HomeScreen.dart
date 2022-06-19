@@ -1,10 +1,9 @@
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/profile.dart';
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/tips.dart';
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/rekomendasi.dart';
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/resep.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../Widgets/MenuUtama.dart';
+import '../Widgets/Rekomendasi.dart';
+import '../Widgets/Tips.dart';
+import '../Widgets/Profile.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -41,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         index: index,
         items: items,
         onTap: (index) => setState(() => this.index = index),
-        ),
-      );
+      ),
+    );
   }
 }

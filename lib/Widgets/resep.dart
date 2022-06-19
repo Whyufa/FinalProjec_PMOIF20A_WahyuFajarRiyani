@@ -10,12 +10,12 @@ class _ResepState extends State<Resep> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Colors.lightGreen,
-          leading: Icon(Icons.arrow_back_ios, color: Colors.white),
-          title: Text(
-            'Resep - Sup Wortel Kentang Telur',
-            style: TextStyle(color: Colors.green),
-          ),
+        backgroundColor: Colors.lightGreen,
+        leading: Icon(Icons.arrow_back_ios, color: Colors.white),
+        title: Text(
+          'Resep - Sup Wortel Kentang Telur',
+          style: TextStyle(color: Colors.green),
+        ),
       ),
     );
   }
