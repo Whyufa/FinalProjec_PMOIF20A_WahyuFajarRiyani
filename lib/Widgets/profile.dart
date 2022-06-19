@@ -1,11 +1,11 @@
 import "package:flutter/material.dart";
 
-class Resep extends StatefulWidget {
+class Profile extends StatefulWidget {
   @override
-  _ResepState createState() => _ResepState();
+  _ProfileState createState() => _ProfileState();
 }
 
-class _ResepState extends State<Resep> {
+class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,8 +13,8 @@ class _ResepState extends State<Resep> {
         backgroundColor: Colors.lightGreen,
         leading: Icon(Icons.arrow_back_ios, color: Colors.white),
         title: Text(
-          'Resep - Sup Wortel Kentang Telur',
-          style: TextStyle(color: Colors.green),
+          'Profile',
+          style: TextStyle(color: Colors.white),
         ),
       ),
     );
