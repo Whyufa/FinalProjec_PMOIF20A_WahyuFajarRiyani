@@ -12,7 +12,7 @@ class _AddState extends State<Add> {
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
         title: Text(
-          'Tambahkan Menu',
+          'Menambahkan Menu',
           style: TextStyle(color: Colors.white),
         ),
       ),

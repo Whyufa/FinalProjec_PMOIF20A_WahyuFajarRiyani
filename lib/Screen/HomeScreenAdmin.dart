@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
       Icon(Icons.home, color: Colors.white),
       Icon(Icons.add_circle_outline_rounded, color: Colors.white, size: 27,),
       Icon(Icons.chat_outlined, color: Colors.white),
-      Icon(Icons.account_circle_outlined, color: Colors.white, size: 26,),
+      Icon(Icons.account_circle_outlined, color: Colors.white, size: 27,),
     ];
 
     return Scaffold(

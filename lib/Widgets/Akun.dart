@@ -12,7 +12,7 @@ class _AkunState extends State<Akun> {
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
         title: Text(
-          'Profile',
+          'Profile Admin',
           style: TextStyle(color: Colors.white),
         ),
       ),

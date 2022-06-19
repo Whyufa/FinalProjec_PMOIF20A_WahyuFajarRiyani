@@ -12,7 +12,7 @@ class _ChatState extends State<Chat> {
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
         title: Text(
-          'Chat',
+          'Pesan',
           style: TextStyle(color: Colors.white),
         ),
       ),
