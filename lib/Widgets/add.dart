@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(new MaterialApp(
-    title: "Healthy Food",
-    home : new Home(),
-  ));
-}
-
 class Home extends StatelessWidget {
 
   @override
