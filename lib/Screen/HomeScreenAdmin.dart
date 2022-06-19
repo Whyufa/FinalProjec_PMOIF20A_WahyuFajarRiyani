@@ -16,6 +16,7 @@ class _HomeState extends State<Home> {
 
   final screens = [
     HomePage(),
+    Add(),
     Chat(),
     Akun(),
   ];
