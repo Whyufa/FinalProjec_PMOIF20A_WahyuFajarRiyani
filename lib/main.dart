@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:healtyfood/Screen/HomeScreenAdmin.dart';
-import '../Screen/HomeScreenUser.dart';
 import '../Screen/HomeScreenAdmin.dart';
 
 void main() {
