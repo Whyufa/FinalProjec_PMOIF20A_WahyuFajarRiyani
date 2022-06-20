@@ -35,15 +35,22 @@ class _HalamanDesainState extends State<HalamanDesain> {
         backgroundColor: Colors.lightGreen,
         title: const Text('Healty Food'),
       ),
-      body: ListView.builder(
+        body: ListView.separated(
           itemCount: makanan.length,
-          itemBuilder: (BuildContext context, index){
+          separatorBuilder: (context,index){
+            return Container(
+              color: Colors.white,
+              width: double.infinity,
+              height: 10,
+            );
+          },
+          itemBuilder: (context, index){
             return Card(
                 color: Colors.white,
                 elevation: 10,
                 shadowColor: Colors.grey,
                 child: ListTile(
-                  title: Text(makanan[index],style: TextStyle(fontSize: 30),),
+                  title: Text(makanan[index],style: TextStyle(fontSize: 20),),
                   subtitle: Text('Makanan yang Direkomendasikan'),
                   trailing: IconButton(
                       onPressed: (){
