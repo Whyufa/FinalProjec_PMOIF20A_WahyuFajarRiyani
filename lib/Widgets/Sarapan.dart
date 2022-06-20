@@ -7,15 +7,27 @@ class Sarapan extends StatefulWidget {
   _SarapanState createState() => _SarapanState();
 }
 
-class _SarapanState extends State<Sarapan> {
+class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
+  late TabController _tabController;
+
   @override
-  Color kPrimaryColor = Color(0xFF27AE60);
-  Color kPrimaryColor1 = Color(0xFF27AE60);
+  void initState(){
+    _tabController = TabController(vsync: this, length: 5);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: new AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
-          backgroundColor: Colors.lightGreen,
-        ),
+      appBar: AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.lightGreen,
+      ),
     );
   }
 }
