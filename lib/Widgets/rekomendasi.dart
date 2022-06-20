@@ -14,6 +14,28 @@ class _RekomendasiState extends State<Rekomendasi> {
         leading: Icon(Icons.arrow_back_ios, color: Colors.white),
         title: const Text('Rekomendasi'),
       ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text("Rekomendasi Makanan", style: TextStyle(
+                        color: Colors.amber,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
