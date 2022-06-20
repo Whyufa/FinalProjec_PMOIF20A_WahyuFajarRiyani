@@ -19,6 +19,38 @@ class _ChatState extends State<Chat> {
       ),
       body: Center(
         child: Slidable(
+          startActionPane: ActionPane(
+            motion: StretchMotion(),
+            children: [
+              SlidableAction(
+                onPressed: ((context){
+              // call number
+              }),
+              backgroundColor: Colors.green,
+              icon: Icons.phone,
+           ),
+        SlidableAction(
+          flex: 2,
+            onPressed: ((context){
+              // text number
+            }),
+            backgroundColor: Colors.blue,
+            icon: Icons.chat,
+          ),
+        ],
+          ),
+        endActionPane: ActionPane(
+          motion: StretchMotion(),
+          children: [
+            SlidableAction(
+              onPressed: ((context){
+              // delete
+            }),
+            backgroundColor: Colors.red,
+            icon: Icons.delete,
+            ),
+          ],
+        ),
           child: Container(
             color: Colors.grey[300],
             child: ListTile(
@@ -28,9 +60,9 @@ class _ChatState extends State<Chat> {
               size: 40,
             )
             )
-          )
+         )
         ),
-      )
+      ),
     );
   }
 }
