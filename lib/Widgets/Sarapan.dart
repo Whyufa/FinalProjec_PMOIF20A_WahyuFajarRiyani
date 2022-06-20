@@ -27,6 +27,59 @@ class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.lightGreen,
+        bottom: TabBar(controller: _tabController,
+          indicatorColor: Colors.white,
+          labelColor: Colors.black54,
+          isScrollable: true,
+          unselectedLabelColor: Colors.white,
+          tabs: [
+            Tab(
+              child: Text(
+                  'Semua',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Nasi',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Roti',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Buah',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Lainnya',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
