@@ -79,8 +79,8 @@ class _SarapanState extends State<Sarapan> with TickerProviderStateMixin {
       body: TabBarView(
           controller: _tabController,
           children: <Widget>[
-            BodyItem(),
-            Container(),
+            Semua(),
+            Nasi(),
             Container(),
             Container(),
             Container(),
@@ -90,7 +90,7 @@ class _SarapanState extends State<Sarapan> with TickerProviderStateMixin {
   }
 }
 
-class BodyItem extends StatelessWidget {
+class Semua extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -104,7 +104,64 @@ class BodyItem extends StatelessWidget {
                           padding: const EdgeInsets.all(12.0),
                           child: Center(
                               child: Wrap(
-                                  spacing: 20.0,
+                                  spacing: 30.0,
+                                  runSpacing: 20.0,
+                                  children: [
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                          onTap: () {},
+                                          splashColor: Colors.grey[400],
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                          onTap: () {},
+                                          splashColor: Colors.grey[400],
+                                        ),
+                                      ),
+                                    ),
+                                  ]
+                              )
+                          )
+                      )
+                    ]
+                )
+            )
+        )
+    );
+  }
+}
+
+class Nasi extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body:SafeArea(
+            child: SingleChildScrollView(
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Center(
+                              child: Wrap(
+                                  spacing: 30.0,
                                   runSpacing: 20.0,
                                   children: [
                                     SizedBox(
