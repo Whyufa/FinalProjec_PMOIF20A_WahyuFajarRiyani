@@ -7,19 +7,13 @@ class Sarapan extends StatefulWidget {
   _SarapanState createState() => _SarapanState();
 }
 
-class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
+class _SarapanState extends State<Sarapan> with TickerProviderStateMixin {
   late TabController _tabController;
 
   @override
   void initState(){
-    _tabController = TabController(vsync: this, length: 5);
     super.initState();
-  }
-
-  @override
-  void dispose() {
-    _tabController.dispose();
-    super.dispose();
+    _tabController = TabController(vsync: this, length: 5);
   }
 
   @override
@@ -27,12 +21,13 @@ class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.lightGreen,
-        bottom: TabBar(controller: _tabController,
-          indicatorColor: Colors.white,
-          labelColor: Colors.black54,
+        bottom: TabBar(
           isScrollable: true,
           unselectedLabelColor: Colors.white,
-          tabs: [
+          labelColor: Colors.black54,
+          controller: _tabController,
+          indicatorColor: Colors.white,
+          tabs: <Widget>[
             Tab(
               child: Text(
                   'Semua',
@@ -81,6 +76,73 @@ class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
           ],
         ),
       ),
+      body: TabBarView(
+          controller: _tabController,
+          children: <Widget>[
+            BodyItem(),
+            Container(),
+            Container(),
+            Container(),
+            Container(),
+          ]
+      ),
+    );
+  }
+}
+
+class BodyItem extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body:SafeArea(
+            child: SingleChildScrollView(
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Center(
+                              child: Wrap(
+                                  spacing: 20.0,
+                                  runSpacing: 20.0,
+                                  children: [
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                          onTap: () {},
+                                          splashColor: Colors.grey[400],
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                          onTap: () {},
+                                          splashColor: Colors.grey[400],
+                                        ),
+                                      ),
+                                    ),
+                                  ]
+                              )
+                          )
+                      )
+                    ]
+                )
+            )
+        )
     );
   }
 }
