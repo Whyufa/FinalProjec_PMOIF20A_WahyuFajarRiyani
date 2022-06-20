@@ -7,88 +7,80 @@ class Sarapan extends StatefulWidget {
   _SarapanState createState() => _SarapanState();
 }
 
-class _SarapanState extends State<Sarapan> {
+class _SarapanState extends State<Sarapan> with SingleTickerProviderStateMixin {
+  late TabController _tabController;
+
   @override
-  Color kPrimaryColor = Color(0xFF27AE60);
-  Color kPrimaryColor1 = Color(0xFF27AE60);
+  void initState(){
+    _tabController = TabController(vsync: this, length: 5);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: new AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
-          backgroundColor: Colors.lightGreen,
+      appBar: AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
+        backgroundColor: Colors.lightGreen,
+        bottom: TabBar(controller: _tabController,
+          indicatorColor: Colors.white,
+          labelColor: Colors.black54,
+          isScrollable: true,
+          unselectedLabelColor: Colors.white,
+          tabs: [
+            Tab(
+              child: Text(
+                  'Semua',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Nasi',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Roti',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Buah',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+            Tab(
+              child: Text(
+                  'Lainnya',
+                  style: TextStyle(
+                      fontFamily: 'varela',
+                      fontSize: 16.0
+                  )
+              ),
+            ),
+          ],
         ),
-        body: SafeArea(
-            child: SingleChildScrollView(
-                child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Padding(padding: const EdgeInsets.all(12.0),
-                        child: Center(
-                          child: Wrap(
-                            spacing: 20.0,
-                            runSpacing: 20.0,
-                            children: [
-                              SizedBox(
-                                width: 140.0,
-                                height: 180.0,
-                                child: Card(
-                                  color: Colors.grey.shade100,
-                                  elevation: 2.0,
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(1.0)),
-                                  child: InkWell(
-                                    onTap: (){},
-                                    splashColor: Colors.lightGreen,
-                                      child: Center(
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Column(
-                                            children: [
-                                              Image.asset("assets/images/sarapan.png",
-                                                  width: 85.0),
-                                              SizedBox(height: 10.0),
-                                              Text("Sarapan", style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontSize: 15.0
-                                              )),
-                                            ],
-                                          ),),
-                                      )
-                                  ),
-                                ),
-                              ),
-                              SizedBox(
-                                width: 140.0,
-                                height: 180.0,
-                                child: Card(
-                                  color: Colors.grey.shade100,
-                                  elevation: 2.0,
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(1.0)),
-                                  child: InkWell(
-                                      onTap: (){},
-                                      splashColor: Colors.lightGreen,
-                                      child: Center(
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Column(
-                                            children: [
-                                              Image.asset("assets/images/sarapan.png",
-                                                  width: 85.0),
-                                              SizedBox(height: 10.0),
-                                              Text("Sarapan", style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontSize: 15.0
-                                              )),
-                                            ],
-                                          ),),
-                                      )
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),)
-                    ])
-            )));
+      ),
+    );
   }
 }
