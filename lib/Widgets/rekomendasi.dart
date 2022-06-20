@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './MakananRekomendasi.dart';
 
 class Rekomendasi extends StatefulWidget {
   const Rekomendasi({Key? key}) : super(key: key);
@@ -46,7 +47,10 @@ class _HalamanDesainState extends State<HalamanDesain> {
                   subtitle: Text('Makanan yang Direkomendasikan'),
                   trailing: IconButton(
                       onPressed: (){
-
+                        Navigator.push(context, MaterialPageRoute(
+                          builder: (context)=>
+                          const MakananRekomendasi(),
+                        ));
                       },
                       icon: Icon(Icons.search)
                   ),
