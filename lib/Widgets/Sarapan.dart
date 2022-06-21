@@ -145,7 +145,7 @@ class BodyItem extends StatelessWidget {
                                               padding: const EdgeInsets.all(1.0),
                                               child: Column(
                                                   children: [
-                                                  Image.asset("assets/images/nasgorbaput.png",
+                                                  Image.asset("assets/images/satetempe.png",
                                                   width: 130.0)
                                         ])))),
                                       ),
@@ -210,7 +210,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/nasgorbaput.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -232,7 +232,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/salad_buah.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -254,7 +254,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/soto_susu.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -276,7 +276,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/banana_pancake.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -298,7 +298,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/lontong_sayur.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -320,7 +320,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/soto_daging.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -342,7 +342,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/avocado_toast.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
@@ -364,183 +364,7 @@ class BodyItem extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
-                                                              width: 200.0)
-                                                        ])))
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                            onTap: () {},
-                                            splashColor: Colors.grey[400],
-                                            child: Center(
-                                                child: Padding(
-                                                    padding: const EdgeInsets.all(1.0),
-                                                    child: Column(
-                                                        children: [
-                                                          Image.asset("assets/images/telur_omelet.png",
+                                                          Image.asset("assets/images/smoothies_pisang.png",
                                                               width: 200.0)
                                                         ])))
                                         ),
