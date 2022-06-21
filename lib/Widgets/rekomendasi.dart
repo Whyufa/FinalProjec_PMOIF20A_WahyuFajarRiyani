@@ -1,71 +1,264 @@
-import 'package:flutter/material.dart';
-import './MakananRekomendasi.dart';
-
-class Rekomendasi extends StatefulWidget {
-  const Rekomendasi({Key? key}) : super(key: key);
-
+import "package:flutter/material.dart";
+class rekomendasi extends StatefulWidget {
   @override
-  State<Rekomendasi> createState() => _RekomendasiState();
+  _rekomendasiState createState() => _rekomendasiState();
 }
 
-class _RekomendasiState extends State<Rekomendasi> {
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Rekomendasi',
-      home: HalamanDesain(),
-    );
-  }
-}
-class HalamanDesain extends StatefulWidget {
-  const HalamanDesain({Key? key}) : super(key: key);
-
-  @override
-  State<HalamanDesain> createState() => _HalamanDesainState();
-}
-
-class _HalamanDesainState extends State<HalamanDesain> {
-  final List makanan = [
-    'Asam Lambung', 'Kelebihan Gula Darah', 'Darah Tinggi', 'Anemia', 'Asam Urat', 'Kolestrol Tinggi',
-  ];
+class _rekomendasiState extends State<rekomendasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightGreen,
-        title: const Text('Healty Food'),
+          backgroundColor: Colors.lightGreen,
+          title: Image.asset("assets/images/brand.png")
       ),
-        body: ListView.separated(
-          itemCount: makanan.length,
-          separatorBuilder: (context,index){
-            return Container(
-              color: Colors.white,
-              width: double.infinity,
-              height: 10,
-            );
-          },
-          itemBuilder: (context, index){
-            return Card(
-                color: Colors.white,
-                elevation: 10,
-                shadowColor: Colors.grey,
-                child: ListTile(
-                  title: Text(makanan[index],style: TextStyle(fontSize: 20),),
-                  subtitle: Text('Makanan yang Direkomendasikan'),
-                  trailing: IconButton(
-                      onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(
-                          builder: (context)=>
-                          const MakananRekomendasi(),
-                        ));
-                      },
-                      icon: Icon(Icons.search)
-                  ),
-                )
-            );
-          }
+      body: SafeArea(
+          child: SingleChildScrollView(
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Row(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: [
+                              Text("Rekomendasi Makanan", style: TextStyle(
+                                  color: Colors.amber,
+                                  fontSize: 25,
+                                  fontWeight: FontWeight.bold),),
+                            ])),
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Center(
+                        child: Wrap(
+                          spacing: 20.0,
+                          runSpacing: 20.0,
+                          children: [
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+
+
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                padding: const EdgeInsets.only(left: 9.0),
+                                                child: Row(
+                                                  mainAxisAlignment: MainAxisAlignment.start,
+                                                  children: [
+                                                    Text("Kelebihan Gula Darah", style: TextStyle(
+                                                        fontSize: 20.0),
+                                                    ),
+
+                                                  ],
+
+                                                ),
+
+                                              ),
+                                            ])))),
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                  padding: const EdgeInsets.only(left: 9.0),
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: [
+                                                      Text("Asam Lambung", style: TextStyle(
+                                                          fontSize: 20.0),
+                                                      )
+                                                    ],
+                                                  )),])))),
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                  padding: const EdgeInsets.only(left: 9.0),
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: [
+                                                      Text("Darah Tinggi", style: TextStyle(
+                                                          fontSize: 20.0),
+                                                      )
+                                                    ],
+                                                  )),])))),
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                  padding: const EdgeInsets.only(left: 9.0),
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: [
+                                                      Text("Anemia", style: TextStyle(
+                                                          fontSize: 20.0),
+                                                      )
+                                                    ],
+                                                  )),])))),
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                  padding: const EdgeInsets.only(left: 9.0),
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: [
+                                                      Text("Asam Urat", style: TextStyle(
+                                                          fontSize: 20.0),
+                                                      )
+                                                    ],
+                                                  )
+                                              ),]
+                                        )
+                                    )
+                                )
+                            ),
+                            SizedBox(
+                                width: 400.0,
+                                height: 70.0,
+                                child: Card(
+                                    color: Colors.grey.shade100,
+                                    elevation: 2.0,
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.circular(3.0)),
+                                    child: InkWell(
+                                        onTap: () {},
+                                        splashColor: Colors.lightGreen,
+                                        child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Padding(
+                                                  padding: const EdgeInsets.all(7.0),
+                                                  child: Row(
+                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                      children: [
+                                                        Text("Rekomendasi Makanan bagi Penderita", style: TextStyle(
+                                                            color: Colors.grey[400],
+                                                            fontSize: 15,
+                                                            fontWeight: FontWeight.bold)),
+                                                      ])),
+                                              Padding(
+                                                  padding: const EdgeInsets.only(left: 9.0),
+                                                  child: Row(
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    children: [
+                                                      Text("Kolestrol", style: TextStyle(
+                                                          fontSize: 20.0),
+                                                      )
+                                                    ],
+                                                  )),])))),
+
+                          ],
+                        ),
+                      ),
+                    ),
+                  ]
+              )
+          )
       ),
     );
   }
 }
-
