@@ -104,7 +104,7 @@ class BodyItem extends StatelessWidget {
                           padding: const EdgeInsets.all(12.0),
                           child: Center(
                               child: Wrap(
-                                  spacing: 20.0,
+                                  spacing: 30.0,
                                   runSpacing: 20.0,
                                   children: [
                                     SizedBox(
@@ -118,6 +118,14 @@ class BodyItem extends StatelessWidget {
                                         child: InkWell(
                                           onTap: () {},
                                           splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/omelet.png",
+                                                              width: 200.0)
+                                                        ])))
                                         ),
                                       ),
                                     ),
@@ -134,12 +142,408 @@ class BodyItem extends StatelessWidget {
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
-                                              padding: const EdgeInsets.all(8.0),
+                                              padding: const EdgeInsets.all(1.0),
                                               child: Column(
                                                   children: [
-                                                  Image.asset("assets/images/telur_omelet.png",
-                                                  width: 85.0)
+                                                  Image.asset("assets/images/nasgorbaput.png",
+                                                  width: 130.0)
                                         ])))),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/sandwich.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/kentang_pkeju.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(
+                                      width: 140.0,
+                                      height: 180.0,
+                                      child: Card(
+                                        color: Colors.grey.shade100,
+                                        elevation: 2.0,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(8.0)),
+                                        child: InkWell(
+                                            onTap: () {},
+                                            splashColor: Colors.grey[400],
+                                            child: Center(
+                                                child: Padding(
+                                                    padding: const EdgeInsets.all(1.0),
+                                                    child: Column(
+                                                        children: [
+                                                          Image.asset("assets/images/telur_omelet.png",
+                                                              width: 200.0)
+                                                        ])))
+                                        ),
                                       ),
                                     ),
                                   ]
