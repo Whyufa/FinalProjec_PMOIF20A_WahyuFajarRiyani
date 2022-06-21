@@ -59,6 +59,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                 padding: const EdgeInsets.only(left: 9.0),
@@ -98,6 +99,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                   padding: const EdgeInsets.only(left: 9.0),
@@ -132,6 +134,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                   padding: const EdgeInsets.only(left: 9.0),
@@ -166,6 +169,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                   padding: const EdgeInsets.only(left: 9.0),
@@ -200,6 +204,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                   padding: const EdgeInsets.only(left: 9.0),
@@ -239,6 +244,7 @@ class _rekomendasiState extends State<rekomendasi> {
                                                             color: Colors.grey[400],
                                                             fontSize: 15,
                                                             fontWeight: FontWeight.bold)),
+                                                        Icon(Icons.exit_to_app, size: 20,)
                                                       ])),
                                               Padding(
                                                   padding: const EdgeInsets.only(left: 9.0),
