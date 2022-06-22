@@ -12,7 +12,7 @@ class _GulaDarahState extends State<GulaDarah> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Menu Sarapan', style: TextStyle(color: Colors.white)),
+      appBar: AppBar(title: Text('Menu Makanan', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.lightGreen,),
       body: SafeArea(
               child: SingleChildScrollView(
