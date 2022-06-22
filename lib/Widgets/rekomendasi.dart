@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import '../Widgets/GulaDarah.dart';
 
 class rekomendasi extends StatefulWidget {
   @override
@@ -43,10 +44,13 @@ class _rekomendasiState extends State<rekomendasi> {
                                     elevation: 2.0,
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(3.0)),
-
-
                                     child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(builder: (context) => GulaDarah()),
+                                          );
+                                        },
                                         splashColor: Colors.lightGreen,
                                         child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
