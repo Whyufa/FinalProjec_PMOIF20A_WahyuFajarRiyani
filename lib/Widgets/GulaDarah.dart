@@ -42,12 +42,36 @@ class _GulaDarahState extends State<GulaDarah> {
                                             padding: const EdgeInsets.all(1.0),
                                             child: Column(
                                               children: [
-                                                Image.asset("assets/images/omelet.png", width: 200.0)
+                                                Image.asset("assets/images/avocado_toast.png", width: 200.0)
                                               ]
                                             )
-                                        )
+                                        ),
                                       )
                                   ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: 140.0,
+                              height: 180.0,
+                              child: Card(
+                                color: Colors.grey.shade100,
+                                elevation: 2.0,
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8.0)),
+                                child: InkWell(
+                                    onTap: () {},
+                                    splashColor: Colors.grey[400],
+                                    child: Center(
+                                      child: Padding(
+                                          padding: const EdgeInsets.all(1.0),
+                                          child: Column(
+                                              children: [
+                                                Image.asset("assets/images/salad_buah.png", width: 200.0)
+                                              ]
+                                          )
+                                      ),
+                                    )
+                                ),
                               ),
                             ),
                           ],
