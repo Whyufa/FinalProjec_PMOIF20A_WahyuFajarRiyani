@@ -24,7 +24,8 @@ class _AddState extends State<Add> {
             ),
             new ListTile(
               leading: new Icon(Icons.card_travel_outlined),
-              title: new Text("Tips Hidup Sehat"),
+              title: new Text("Tips Hidup Sehat"
+              ),
             ),
           ]
       ),

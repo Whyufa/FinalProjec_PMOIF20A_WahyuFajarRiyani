@@ -18,7 +18,8 @@ class _HomeState extends State<Home> {
     HomePage(),
     Add(),
     Chat(),
-    Akun(),
+    Profile()
+
   ];
 
   @override
