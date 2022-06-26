@@ -470,8 +470,12 @@ class Roti extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/omelet.png",
-                                                              width: 200.0)
+                                                          Image.asset("assets/images/omelet.png", width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Omlet", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -492,8 +496,12 @@ class Roti extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/satetempe.png",
-                                                              width: 130.0)
+                                                          Image.asset("assets/images/satetempe.png", width: 130.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Sate Tempe", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))),
                                       ),
                                     ),
@@ -513,8 +521,12 @@ class Roti extends StatelessWidget {
                                                     padding: const EdgeInsets.all(1.0),
                                                     child: Column(
                                                         children: [
-                                                          Image.asset("assets/images/sandwich.png",
-                                                              width: 200.0)
+                                                          Image.asset("assets/images/sandwich.png", width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Sandwich", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -536,7 +548,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/kentang_pkeju.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Kentang Pake Keju", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -558,7 +575,13 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/nasgorbaput.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Nasi Goreng\n"
+                                                              "Bawang Putih", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -580,7 +603,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/salad_buah.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Salad Buah", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -602,7 +630,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/soto_susu.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Soto Susu", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -624,7 +657,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/banana_pancake.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Banana Pancake", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -646,7 +684,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/lontong_sayur.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Lontong Sayur", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -668,7 +711,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/soto_daging.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Soto Daging", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -690,7 +738,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/avocado_toast.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Toast Avocado", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
@@ -712,7 +765,12 @@ class Roti extends StatelessWidget {
                                                     child: Column(
                                                         children: [
                                                           Image.asset("assets/images/smoothies_pisang.png",
-                                                              width: 200.0)
+                                                              width: 200.0),
+                                                          SizedBox(height: 5.0),
+                                                          Text("Smooties Pisang", style: TextStyle(
+                                                              color: Colors.black,
+                                                              fontSize: 15.0
+                                                          )),
                                                         ])))
                                         ),
                                       ),
