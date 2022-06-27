@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final screens = [
     MenuUtama(),
-    rekomendasi(),
+    Rekomendasi(),
     Tips(),
     Profile(),
   ];

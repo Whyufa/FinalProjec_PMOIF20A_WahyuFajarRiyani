@@ -1,5 +1,6 @@
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanMalam.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanSiang.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/Sayuran.dart';
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:carousel_slider/carousel_slider.dart';
@@ -169,17 +170,22 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Sayuran()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
+                                      padding: const EdgeInsets.all(10.0),
                                       child: Column(
                                         children: [
-                                          Image.asset("assets/images/snack.png",
-                                              width: 85.0),
-                                          SizedBox(height: 10.0),
-                                          Text("Snack", style: TextStyle(
+                                          Image.asset("assets/images/sayur.png",
+                                              width: 125.0),
+                                          SizedBox(height: 15.0),
+                                          Text("Sayuran", style: TextStyle(
                                               color: Colors.black,
                                               fontSize: 15.0
                                           )),
