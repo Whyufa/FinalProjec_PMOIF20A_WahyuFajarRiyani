@@ -1,17 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 
-class TambahResep extends StatefulWidget {
-  const TambahResep({Key? key}) : super(key: key);
+class TambahTips extends StatefulWidget {
+  const TambahTips({Key? key}) : super(key: key);
 
   @override
-  State<TambahResep> createState() => _TambahResepState();
+  State<TambahTips> createState() => _TambahTipsState();
+
 }
 
-class _TambahResepState extends State<TambahResep> {
+class _TambahTipsState extends State<TambahTips> {
   TextEditingController judulController = TextEditingController();
-  TextEditingController bahanController = TextEditingController();
-  TextEditingController langkahController = TextEditingController();
+  TextEditingController linkController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,20 +29,14 @@ class _TambahResepState extends State<TambahResep> {
           children: [
             TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(), hintText: 'Masukan Judul'),
+                  border: OutlineInputBorder(), hintText: 'Masukan Judul'),
               controller: judulController,
             ),
             SizedBox(height: 15),
             TextField(
               decoration: InputDecoration(
-                  border: OutlineInputBorder(), hintText: 'Masukan Bahan'),
-              controller: bahanController,
-            ),
-            SizedBox(height: 15),
-            TextField(
-              decoration: InputDecoration(
-                  border: OutlineInputBorder(), hintText: 'Masukan Langkah Pembuatan'),
-              controller: langkahController,
+                  border: OutlineInputBorder(), hintText: 'Masukan Link'),
+              controller: linkController,
             ),
           ],
         ),
@@ -49,5 +44,3 @@ class _TambahResepState extends State<TambahResep> {
     );
   }
 }
-
-

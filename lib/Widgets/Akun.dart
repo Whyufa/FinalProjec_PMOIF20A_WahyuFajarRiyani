@@ -17,9 +17,8 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.lightGreen,
-          leading: Icon(Icons.arrow_back_ios, color: Colors.white),
           title: Text(
-            'Profile',
+            'Profile Admin',
             style: TextStyle(color: Colors.white),
           ),
         ),
