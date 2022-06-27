@@ -1,6 +1,6 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/Home.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import '../Widgets/Home.dart';
 import '../Widgets/Add.dart';
 import '../Widgets/Chat.dart';
 import '../Widgets/Akun.dart';
@@ -15,10 +15,11 @@ class _HomeState extends State<Home> {
   int index = 0;
 
   final screens = [
-    HomePage(),
+    HomeAdmin(),
     Add(),
     Chat(),
-    Akun(),
+    Profile()
+
   ];
 
   @override

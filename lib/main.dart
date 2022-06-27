@@ -1,6 +1,6 @@
 import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreenUser.dart';
 import 'package:flutter/material.dart';
-import '../Screen/HomeScreenAdmin.dart';
+import 'Screen/HomeScreenAdmin.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: "Healthy Food",
-        home: MyHomePage()
+        home: Home()
     );
   }
 }
