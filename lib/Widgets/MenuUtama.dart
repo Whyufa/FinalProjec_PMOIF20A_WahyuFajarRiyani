@@ -1,3 +1,4 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanMalam.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanSiang.dart';
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
@@ -134,7 +135,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => MakanMalam()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
