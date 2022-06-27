@@ -1,11 +1,10 @@
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanMalam.dart';
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanSiang.dart';
-import 'package:finalprojec_pmoif20a_wahyu/Widgets/Sayuran.dart';
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:carousel_slider/carousel_slider.dart';
 import '../Widgets/Sarapan.dart';
 import '../Widgets/MakanSiang.dart';
+import '../Widgets/MakanMalam.dart';
+import '../Widgets/Sayuran.dart';
 
 class MenuUtama extends StatefulWidget {
   @override

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
-import  'package:image_picker/image_picker.dart';
+
 
 class TambahResep extends StatefulWidget {
   const TambahResep({Key? key}) : super(key: key);
@@ -16,12 +16,9 @@ class _TambahResepState extends State<TambahResep> {
   TextEditingController bahanController = TextEditingController();
   TextEditingController langkahController = TextEditingController();
   File? image;
-  final ImagePicker _picker = ImagePicker();
 
   Future pilihGambar() async{
 
-    final XFile? file = await _picker.pickImage(source: ImageSource.gallery);
-    image = File(file!.path);
   }
 
   @override
