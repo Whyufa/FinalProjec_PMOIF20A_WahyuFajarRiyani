@@ -1,4 +1,5 @@
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/BacaTips.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/CaraMemasak.dart';
 import "package:flutter/material.dart";
 
 class Tips extends StatefulWidget {
@@ -78,7 +79,10 @@ class _TipsState extends State<Tips> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(3.0)),
                           child: InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => CaraMemasak()),
+                              );
+                            },
                             splashColor: Colors.lightGreen,
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
