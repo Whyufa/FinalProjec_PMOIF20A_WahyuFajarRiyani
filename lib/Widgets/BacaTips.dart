@@ -27,7 +27,7 @@ class _BacaTipsState extends State<BacaTips> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 1500.0,
+                        height: 2660.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
@@ -194,11 +194,329 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("1. Anak-anak usia 1–6 tahun: 1.350–1.400 kalori \n"
-                                          "2. Anak-anak usia 7–9 tahun: 1.650 kalori \n"
-                                          "3. Remaja: 2.000–2.650 kalori \n"
-                                          "4. Dewasa: 2.150–2.650 kalori \n"
-                                          "5. Wanita hamil dan menyusui: 2.400–2.650 kalori",
+                                      Text("a. Anak-anak usia 1–6 tahun: 1.350–1.400 kalori, \n"
+                                          "b. Anak-anak usia 7–9 tahun: 1.650 kalori, \n"
+                                          "c. Remaja: 2.000–2.650 kalori, \n"
+                                          "d. Dewasa: 2.150–2.650 kalori, \n"
+                                          "e. Wanita hamil dan menyusui: 2.400–2.650 kalori.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Pilihan Makanan untuk Diet Sehat",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Pilihan makanan dan minuman yang Anda konsumsi perlu \n"
+                                          "disesuaikan dengan kebutuhan kalori tubuh setiap harinya. \n"
+                                          "Anda bisa mencukupi asupan kalori tersebut dari berbagai \n"
+                                          "makanan, seperti telur, ikan, daging, buah-buahan, dan \n"
+                                          "sayuran.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Bila Anda mengonsumsi makanan dan minuman kemasan, \n"
+                                          "Anda bisa menyesuaikan kalori yang masuk ke dalam tubuh \n"
+                                          "dengan melihat jumlah kalori yang biasanya tertera pada \n"
+                                          "label kemasan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Secara umum, ada beberapa pilihan makanan yang bisa \n"
+                                          "Anda konsumsi saat menjalani pola makan untuk diet sehat, \n"
+                                          "di antaranya :",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("a. Sayuran, seperti bayam, brokoli, jamur, ubi, sawi, dan \n"
+                                          "    wortel, \n"
+                                          "b. Buah-buahan, misalnya mangga, pisang, alpukat, dan apel, \n"
+                                          "c. Serealia atau biji-bijian, misalnya gandum utuh, oatmeal, \n"
+                                          "    dan brown rice, \n"
+                                          "d. Susu rendah lemak dan produk olahannya, termasuk \n"
+                                          "    yoghurt dan keju, \n"
+                                          "e. Sumber protein, termasuk makanan laut, unggas, telur, \n"
+                                          "    daging, dan kacang-kacangan, \n"
+                                          "f. Minyak sehat, misalnya minyak sayur, minyak kedelai, \n"
+                                          "    dan minyak kanola. \n",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Makanan yang Perlu Dihindari Saat Menjalani Diet Sehat",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Dalam menjalani pola makan sehat, Anda perlu membatasi \n"
+                                          "konsumsi makanan yang banyak mengandung garam, lemak \n"
+                                          "jenuh atau kolesterol, serta gula tambahan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Anjuran konsumsi garam, gula, dan lemak oleh pemerintah \n"
+                                          "Republik Indonesia adalah :",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("a. Gula: 4 sendok makan atau 50 gram per hari, \n"
+                                          "b. Garam: 1 sendok teh atau 5 gram per hari, \n"
+                                          "c. Lemak: 5 sendok makan atau 67 gram per hari.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Tips Pola Makan untuk Diet Sehat",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Keberhasilan diet dan menerapkan pola makan sehat dimulai \n"
+                                          "dengan mengubah kebiasaan makan secara bertahap dan \n"
+                                          "konsisten. Berikut ini adalah beberapa tips yang bisa Anda \n"
+                                          "terapkan untuk memulai diet sehat :",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Hindari melewatkan waktu makan",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Menunda atau melewatkan waktu makan, khususnya \n"
+                                          "sarapan, dapat membuat tubuh kekurangan energi. \n"
+                                          "Kebiasaan tidak sarapan juga dapat menyebabkan tubuh \n"
+                                          "kekurangan nutrisi tertentu, misalnya protein, kalsium, \n"
+                                          "magnesium, zinc, vitamin A, vitamin C, dan folat.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Makan sebelum lapar",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Anda disarankan untuk makan sebelum rasa lapar muncul. \n"
+                                          "Dengan demikian, porsi makan Anda akan lebih terkontrol \n"
+                                          "dan Anda menjadi cepat kenyang. Hindari makan atau ngemil \n"
+                                          "saat Anda sudah merasa sangat lapar atau ketika Anda \n"
+                                          "sedang cemas atau stres.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Jika Anda makan pada situasi tersebut, dorongan untuk \n"
+                                          "makan berlebihan akan lebih tinggi, sehingga Anda akan \n"
+                                          "sulit mengatur porsi makan dan jenis makanan yang \n"
+                                          "dikonsumsi. Akibatnya, berat badan pun akan sulit \n"
+                                          "dikendalikan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Batasi kebiasaan ngemil",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Kurangi kebiasaan mengonsumsi camilan untuk \n"
+                                          "menghilangkan rasa lapar atau mengisi waktu senggang, \n"
+                                          "terlebih camilan yang kurang sehat, seperti keripik, \n"
+                                          "gorengan, atau es krim.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Meski terasa nikmat, jenis camilan tersebut mengandung \n"
+                                          "banyak lemak jenuh, gula, serta garam, namum rendah \n"
+                                          "kandungan nutrisinya. Sebagai gantinya, Anda dapat \n"
+                                          "mengganti camilan dengan pilihan yang lebih sehat, seperti \n"
+                                          "buah-buahan, kacang almond, telur rebus, atau yoghurt \n"
+                                          "tinggi protein, namun rendah lemak.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Pada dasarnya, pola makan untuk diet sehat di atas baik \n"
+                                          "dilakukan untuk menjaga kondisi kesehatan. Namun, jika \n"
+                                          "Anda menderita penyakit tertentu, seperti hipertensi atau \n"
+                                          "diabetes, sebaiknya konsultasikan dengan dokter untuk \n"
+                                          "menentukan pola makan yang sehat dan tepat, sesuai \n"
+                                          "kondisi dan kebutuhan Anda.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
