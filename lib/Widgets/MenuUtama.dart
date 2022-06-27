@@ -1,7 +1,9 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakanSiang.dart';
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:carousel_slider/carousel_slider.dart';
 import '../Widgets/Sarapan.dart';
+import '../Widgets/MakanSiang.dart';
 
 class MenuUtama extends StatefulWidget {
   @override
@@ -36,7 +38,7 @@ class _MenuUtamaState extends State<MenuUtama> {
                             color: Colors.amber,
                             fontSize: 25,
                             fontWeight: FontWeight.bold),),
-                        Image.asset("assets/images/foto_profile.png", width: 50.0)
+                        IconButton(icon: Icon(Icons.person,), onPressed: (){})
                       ],
                     )),
                 Padding(
@@ -98,7 +100,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(builder: (context) => MakanSiang()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
