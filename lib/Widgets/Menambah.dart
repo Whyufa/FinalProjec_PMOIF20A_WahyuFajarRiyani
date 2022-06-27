@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
+import  'package:image_picker/image_picker.dart';
 
 class TambahResep extends StatefulWidget {
   const TambahResep({Key? key}) : super(key: key);
@@ -12,6 +15,15 @@ class _TambahResepState extends State<TambahResep> {
   TextEditingController judulController = TextEditingController();
   TextEditingController bahanController = TextEditingController();
   TextEditingController langkahController = TextEditingController();
+  File? image;
+  final ImagePicker _picker = ImagePicker();
+
+  Future pilihGambar() async{
+
+    final XFile? file = await _picker.pickImage(source: ImageSource.gallery);
+    image = File(file!.path);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +40,7 @@ class _TambahResepState extends State<TambahResep> {
           children: [
             TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(), hintText: 'Masukan Judul'),
+                  border: OutlineInputBorder(), hintText: 'Masukan Judul'),
               controller: judulController,
             ),
             SizedBox(height: 15),
@@ -43,11 +55,25 @@ class _TambahResepState extends State<TambahResep> {
                   border: OutlineInputBorder(), hintText: 'Masukan Langkah Pembuatan'),
               controller: langkahController,
             ),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Container(
+                  height: 50,
+                  width: 50,
+                  color: Colors.white,
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    pilihGambar();
+                  }, child: Text("pilih gambar"),
+
+                ),
+              ],
+            )
           ],
         ),
       ),
     );
   }
 }
-
-
