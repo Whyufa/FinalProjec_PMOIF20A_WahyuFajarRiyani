@@ -3,7 +3,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import '../Widgets/MenuUtama.dart';
 import '../Widgets/rekomendasi.dart';
 import '../Widgets/Tips.dart';
-import '../Widgets/Profile.dart';
+import '../Widgets/AkunUser.dart';
 
 class MyHomePage extends StatefulWidget {
   @override

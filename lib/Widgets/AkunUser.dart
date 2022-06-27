@@ -15,13 +15,14 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.lightGreen,
-          title: Text(
-            'Profile Admin',
-            style: TextStyle(color: Colors.white),
-          ),
+      appBar: AppBar(
+        backgroundColor: Colors.lightGreen,
+        leading: Icon(Icons.arrow_back_ios, color: Colors.white),
+        title: Text(
+          'Profile User',
+          style: TextStyle(color: Colors.white),
         ),
+      ),
         body: SafeArea(
             minimum: EdgeInsets.only(top: 100),
             child: Column(
@@ -31,7 +32,7 @@ class _ProfileState extends State<Profile> {
                   backgroundImage: AssetImage('assets/images/foto_profile.png'),
                 ),
                 Text(
-                  "Wahyu Fajar Riyani",
+                  "Whyufa",
                   style: TextStyle(
                     fontSize: 40.0,
                     color: Colors.grey,
@@ -41,7 +42,7 @@ class _ProfileState extends State<Profile> {
                   ),
                 ),
                 Text(
-                  "Admin",
+                  "User",
                   style: TextStyle(
                     fontSize: 30.0,
                     color: Colors.grey,
