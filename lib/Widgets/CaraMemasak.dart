@@ -45,7 +45,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("Direbus atau Dikukus, Cara Memasak Mana yang \n"
-                                          "Lebih Sehat?", style: TextStyle(
+                                          "Lebih Sehat ?", style: TextStyle(
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold),
                                       ),
@@ -119,7 +119,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                           "cara memasak atau mengolah makanan juga menentukan \n"
                                           "kandungan gizi di dalamnya. Jika cara memasaknya salah, \n"
                                           "makanan sehat juga bisa berubah menjadi sumber penyakit, \n"
-                                          "lho .",
+                                          "lho.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -135,7 +135,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                       Text("Merebus dan mengukus sudah dikenal sebagai cara paling \n"
                                           "sehat untuk memasak makanan. Kedua cara memasak ini \n"
                                           "bisa menjaga kandungan kalori makanan karena tidak \n"
-                                          "membutuhkan tambahan minyak atau mentega . Lalu, di \n"
+                                          "membutuhkan tambahan minyak atau mentega. Lalu, di \n"
                                           "antara keduanya, manakah cara memasak yang lebih sehat \n"
                                           "sebagai lemak.",
                                         style: TextStyle(
@@ -150,7 +150,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Baik direbus maupun dikukus, sama sehatnya . Namun, \n"
+                                      Text("Baik direbus maupun dikukus, sama sehatnya. Namun, \n"
                                           "beberapa jenis makanan lebih baik dimasak dengan cara \n"
                                           "dikukus. Contohnya adalah sayuran.",
                                         style: TextStyle(
