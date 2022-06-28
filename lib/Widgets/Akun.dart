@@ -24,6 +24,9 @@ class _ProfileState extends State<Profile> {
         ),
         body: SafeArea(
             minimum: EdgeInsets.only(top: 100),
+            child: SingleChildScrollView(
+
+
             child: Column(
               children: <Widget>[
                 CircleAvatar(
@@ -65,6 +68,7 @@ class _ProfileState extends State<Profile> {
                     onPressed: () async {}),
                 InfoCard(text: email, icon: Icons.email, onPressed: () async {}),
               ],
+            ),
             )
         )
     );

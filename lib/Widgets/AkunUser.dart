@@ -1,7 +1,9 @@
+import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreenUser.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/Menambah.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/bmi.dart';
 import "package:flutter/material.dart";
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/card.dart';
+import '../Widgets/MenuUtama.dart';
 
 const url = "yufa.me";
 const email = "whyufa115@gmail.com";
@@ -19,24 +21,28 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
-        leading: Icon(Icons.arrow_back_ios, color: Colors.white),
-        title: Text(
-          'Profile User',
-          style: TextStyle(color: Colors.white),
-        ),
-      ),
-        body: SafeArea(
-            minimum: EdgeInsets.only(top: 100),
-            child: ListView(
-              children: <Widget>[
-                CircleAvatar(
-                  radius: 50,
-                  backgroundImage: AssetImage('assets/images/foto_profile.png'),
-                ),
-                Text(
-                  "Whyufa",
-                  style: TextStyle(
-                    fontSize: 40.0,
+        leading: IconButton(icon: Icon(Icons.arrow_back_ios_rounded), onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => MyHomePage()),
+          );
+          title: Text(
+            'Profile User',
+            style: TextStyle(color: Colors.white),
+          );
+          },)),
+          body: SafeArea(
+          minimum: EdgeInsets.only(top: 100),
+          child: ListView(
+          children: <Widget>[
+          CircleAvatar(
+          radius: 50,
+          backgroundImage: AssetImage('assets/images/foto_profile.png'),
+          ),
+          Text(
+          "Whyufa",
+          style: TextStyle(
+          fontSize: 40.0,
                     color: Colors.grey,
                     letterSpacing: 2.5,
                     fontWeight: FontWeight.bold,
