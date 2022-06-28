@@ -1,3 +1,5 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/Menambah.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/bmi.dart';
 import "package:flutter/material.dart";
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/card.dart';
 
@@ -25,7 +27,7 @@ class _ProfileState extends State<Profile> {
       ),
         body: SafeArea(
             minimum: EdgeInsets.only(top: 100),
-            child: Column(
+            child: ListView(
               children: <Widget>[
                 CircleAvatar(
                   radius: 50,
@@ -52,8 +54,8 @@ class _ProfileState extends State<Profile> {
                   ),
                 ),
                 SizedBox(
-                  height: 20,
-                  width: 200,
+                  height: 5.0,
+                  width: 10.0,
                   child: Divider(
                     color: Colors.white,
                   ),
@@ -65,8 +67,35 @@ class _ProfileState extends State<Profile> {
                     icon: Icons.location_city,
                     onPressed: () async {}),
                 InfoCard(text: email, icon: Icons.email, onPressed: () async {}),
+                SizedBox(
+                  height: 30,
+                  width: 30,
+                  child: Card(
+                    color: Colors.grey,
+                    elevation: 2.0,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8.0)
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                       Navigator.push(
+                         context,
+                         MaterialPageRoute(builder: (context) => BMI()),
+                       );
+                      },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("BMI", style: TextStyle(
+                                color: Colors.grey[400],
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold))],
+                        )
+                    ),
+                  ),
+                ),
               ],
-            )
+            ),
         )
     );
   }
