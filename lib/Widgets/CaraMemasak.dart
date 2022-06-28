@@ -27,7 +27,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 1485.0,
+                        height: 1670.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
@@ -44,8 +44,8 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Direbus atau Dikukus, Cara Memasak Mana yang \n"
-                                          "Lebih Sehat ?", style: TextStyle(
+                                      Text("Direbus atau Dikukus, Cara Memasak Mana \n"
+                                          "Yang Lebih Sehat ?", style: TextStyle(
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold),
                                       ),
@@ -57,9 +57,10 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Merebus dan mengukus adalah cara mengolah makanan \n"
-                                          "yang dipercaya sangat menyehatkan. Tapi, di antara kedua \n"
-                                          "cara tersebut, mana yang lebih sehat ?",
+                                      Text("Merebus dan mengukus adalah cara mengolah \n"
+                                          "makanan yang dipercaya sangat menyehatkan. \n"
+                                          "Tapi, di antara kedua cara tersebut, mana \n"
+                                          "yang lebih sehat ?",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -92,7 +93,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Image.asset("assets/images/rebus_kukus.png", width: 355.0)
+                                      Image.asset("assets/images/rebus_kukus.png", width: 342.0)
                                     ],
                                   ),
                                 ),
@@ -115,11 +116,11 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Perlu Anda ketahui bahwa selain jenis makanan itu sendiri, \n"
-                                          "cara memasak atau mengolah makanan juga menentukan \n"
-                                          "kandungan gizi di dalamnya. Jika cara memasaknya salah, \n"
-                                          "makanan sehat juga bisa berubah menjadi sumber penyakit, \n"
-                                          "lho.",
+                                      Text("Perlu Anda ketahui bahwa selain jenis makanan itu \n"
+                                          "sendiri, cara memasak atau mengolah makanan juga \n"
+                                          "menentukan kandungan gizi di dalamnya. Jika cara \n"
+                                          "memasaknya salah, makanan sehat juga bisa berubah \n"
+                                          "menjadi sumber penyakit, lho.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -165,11 +166,11 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Untuk memasak sayuran, cara direbus bukanlah cara terbaik. \n"
-                                          "Ini karena nutrisi di dalamnya, seperti vitamin B dan C, dapat \n"
-                                          "larut dalam air mendidih. Jadi, agar Anda tetap bisa \n"
-                                          "mendapatkan nutrisi sayuran yang optimal, masaklah dengan \n"
-                                          "cara dikukus.",
+                                      Text("Untuk memasak sayuran, cara direbus bukanlah cara \n"
+                                          "terbaik. Ini karena nutrisi di dalamnya, seperti vitamin \n"
+                                          "B dan C, dapat larut dalam air mendidih. Jadi, agar Anda \n"
+                                          "tetap bisa mendapatkan nutrisi sayuran yang optimal, \n"
+                                          "masaklah dengan cara dikukus.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -227,20 +228,20 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("a. Pastikan makanan yang Anda makan bergizi dan segar. \n"
-                                           "    Selain itu, pastikan peralatan masak dan dapur Anda \n"
-                                           "    bersih agar makanan tidak terkontaminasi bakteri. \n"
+                                          "   Selain itu, pastikan peralatan masak dan dapur Anda \n"
+                                          "   bersih agar makanan tidak terkontaminasi bakteri. \n"
                                           "b. Jangan lupa untuk mencuci semua bahan makanan \n"
-                                          "    sebelum dimasak. \n"
+                                          "   sebelum dimasak. \n"
                                           "c. Jika ingin menggunakan minyak atau mentega, gunakan \n"
-                                          "    secukupnya. Sebaiknya pilih minyak yang sehat, seperti \n"
-                                          "    kanola atau zaitun. \n"
+                                          "   secukupnya. Sebaiknya pilih minyak yang sehat, \n"
+                                          "   seperti kanola atau zaitun. \n"
                                           "d. Batasi jumlah garam yang Anda tambahkan ke masakan. \n"
-                                          "    Mengkonsumsi terlalu banyak garam dapat menempatkan \n"
-                                          "    Anda pada risiko hipertensi, stroke, dan penyakit \n"
-                                          "    jantung. \n"
+                                          "   Mengkonsumsi terlalu banyak garam dapat \n"
+                                          "   menempatkan Anda pada risiko hipertensi, stroke, \n"
+                                          "   dan penyakit jantung. \n"
                                           "e. Jika Anda ingin rasa yang kuat dalam masakan Anda, \n"
-                                          "    Anda dapat menambahkan berbagai rempah-rempah dan \n"
-                                          "    bumbu.",
+                                          "   Anda dapat menambahkan berbagai rempah-rempah \n"
+                                          "   dan bumbu.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -254,10 +255,10 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("Meski direbus dan dikukus baik untuk kesehatan, kedua \n"
-                                          "teknik memasak ini juga memiliki kekurangan, yaitu membuat \n"
-                                          "makanan terasa hambar. Terkadang, tidak apa-apa memasak \n"
-                                          "dengan metode lain. Namun, pastikan jenis makanannya \n"
-                                          "sehat, ya !",
+                                          "teknik memasak ini juga memiliki kekurangan, yaitu \n"
+                                          "membuat makanan terasa hambar. Terkadang, tidak \n"
+                                          "apa-apa memasak dengan metode lain. Namun, pastikan \n"
+                                          "jenis makanannya sehat, ya !",
                                         style: TextStyle(
                                             fontSize: 13,
                                         ),
