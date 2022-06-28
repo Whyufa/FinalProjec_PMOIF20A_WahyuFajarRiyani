@@ -1,5 +1,7 @@
+import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreenUser.dart';
 import "package:flutter/material.dart";
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/card.dart';
+import '../Widgets/MenuUtama.dart';
 
 const url = "yufa.me";
 const email = "whyufa115@gmail.com";
@@ -17,7 +19,12 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
-        leading: Icon(Icons.arrow_back_ios, color: Colors.white),
+        leading: IconButton(icon: Icon(Icons.arrow_back_ios_rounded), onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => MyHomePage()),
+          );
+        }),
         title: Text(
           'Profile User',
           style: TextStyle(color: Colors.white),
