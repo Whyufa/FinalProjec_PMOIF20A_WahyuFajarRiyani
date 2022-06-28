@@ -1,3 +1,4 @@
+import 'package:finalprojec_pmoif20a_wahyu/Menu/ResepMakanMalam.dart';
 import "package:flutter/material.dart";
 
 class MakanMalam extends StatefulWidget {
@@ -33,7 +34,12 @@ class _MakanMalamState extends State<MakanMalam>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Spagheti()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -62,7 +68,12 @@ class _MakanMalamState extends State<MakanMalam>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Ayam()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
