@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:flutter/painting.dart';
+import '../Menu/ResepAnemia.dart';
 class Anemia extends StatefulWidget {
   @override
   _AnemiaState createState() => _AnemiaState();
@@ -34,7 +35,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => BuburKacangHijau())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -63,7 +69,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => GulaiDaunSingkong())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -92,7 +103,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => JusJambu())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -120,16 +136,21 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => JusJambu())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
                                       padding: const EdgeInsets.all(1.0),
                                       child: Column(
                                           children: [
-                                            Image.asset("assets/images/Jus_Jeruk.png", width: 200.0),
+                                            Image.asset("assets/images/Jus_Jambu.png", width: 200.0),
                                             SizedBox(height: 5.0),
-                                            Text("Jus Jeruk", style: TextStyle(
+                                            Text("Jus Jambu", style: TextStyle(
                                                 color: Colors.black,
                                                 fontSize: 15.0)),
                                           ]
@@ -148,7 +169,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => JusSemangka())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -176,7 +202,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => PudingAnggur())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -204,7 +235,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => RotiTapeKismis())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -232,7 +268,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => SayurBayam())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -260,7 +301,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => SmootiesPisang())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -288,7 +334,12 @@ class _AnemiaState extends State<Anemia> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => ToasDaging())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(

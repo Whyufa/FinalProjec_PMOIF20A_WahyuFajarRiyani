@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "../Menu/ResepKolestrol.dart";
 
 class Kolestrol extends StatefulWidget {
   @override
@@ -33,7 +34,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => OatMeal())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -61,7 +67,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => OsengTempeTahu())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -89,7 +100,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Yogurt())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -117,7 +133,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => JusApel())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -145,7 +166,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisKacang())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -173,7 +199,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => PisangKaramel())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -201,7 +232,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Salmon())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -229,7 +265,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisTerong())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -257,7 +298,12 @@ class _KolestrolState extends State<Kolestrol> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisSayur())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
