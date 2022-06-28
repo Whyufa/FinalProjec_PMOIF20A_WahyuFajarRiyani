@@ -51,7 +51,7 @@ class _TipsState extends State<Tips> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Image.asset("assets/images/tips_diet.png",
-                                        width: 365.0),
+                                        width: 352.0),
                                     ],
                                   ),
                                 ),
@@ -94,7 +94,7 @@ class _TipsState extends State<Tips> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Image.asset("assets/images/rebus_kukus.png",
-                                        width: 365.0),
+                                        width: 352.0),
                                     ]
                                   )
                                 ),
@@ -137,7 +137,7 @@ class _TipsState extends State<Tips> {
                                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: [
                                                   Image.asset("assets/images/mencuci_sayur.png",
-                                                      width: 365.0),
+                                                      width: 352.0),
                                                 ]
                                             )
                                         ),
