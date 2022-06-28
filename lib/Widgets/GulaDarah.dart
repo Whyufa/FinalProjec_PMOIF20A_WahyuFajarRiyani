@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:flutter/painting.dart';
+import '../Menu/ResepGulaDarah.dart';
+
 class GulaDarah extends StatefulWidget {
   @override
   _GulaDarahState createState() => _GulaDarahState();
@@ -34,7 +36,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Brokoli())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -63,7 +70,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Seafood())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -91,7 +103,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Yogurt())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -119,7 +136,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisKale())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -147,7 +169,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisOkra())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -175,7 +202,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Kimchi())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -203,7 +235,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => PudingSeedChia())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -231,7 +268,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => RotiFlaxseed())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -259,7 +301,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => JusAlpukat())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -287,7 +334,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => SaladBeri())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -315,7 +367,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisKacang())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -343,7 +400,12 @@ class _GulaDarahState extends State<GulaDarah> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => SupKacangLentil())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(

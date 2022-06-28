@@ -1,4 +1,6 @@
 import "package:flutter/material.dart";
+import "../Menu/ResepDarahTinggi.dart";
+
 
 class DarahTinggi extends StatefulWidget {
   @override
@@ -33,7 +35,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => OatMeal())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -61,7 +68,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => IkanBakar())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -89,7 +101,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Yogurt())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -117,7 +134,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Brownies())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -145,7 +167,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => SaladBuah())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -173,7 +200,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => RotiGandum())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -201,7 +233,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => KacangLima())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -229,7 +266,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Cookies())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -257,7 +299,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => TumisSayur())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
@@ -286,7 +333,12 @@ class _DarahTinggiState extends State<DarahTinggi> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8.0)),
                             child: InkWell(
-                                onTap: () {},
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => RotiFlaxseed())
+                                  );
+                                },
                                 splashColor: Colors.grey[400],
                                 child: Center(
                                   child: Padding(
