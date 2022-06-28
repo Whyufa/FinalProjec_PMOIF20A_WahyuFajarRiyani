@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
+import '../Menu/ResepMakanSiang.dart';
 
 class MakanSiang extends StatefulWidget {
   @override
@@ -33,7 +35,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Udang()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -62,7 +69,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Cumi()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -91,7 +103,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Teri()),
+                                          );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -120,7 +137,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Pesmol()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -149,7 +171,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => AyamSuwir()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -178,36 +205,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
-                                          splashColor: Colors.grey[400],
-                                          child: Center(
-                                            child: Padding(
-                                              padding: const EdgeInsets.all(1.0),
-                                              child: Column(
-                                                children: [
-                                                  Image.asset("assets/images/ayam_saus.png", width: 200.0),
-                                                  SizedBox(height: 5.0),
-                                                  Text("Ayam Goreng\n  Saus Tomat", style: TextStyle(
-                                                      color: Colors.black,
-                                                      fontSize: 15.0
-                                                  )),
-                                                ],
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Sup()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -236,7 +239,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Rendang()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -265,7 +273,12 @@ class _MakanSiangState extends State<MakanSiang>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => Oseng()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -275,35 +288,6 @@ class _MakanSiangState extends State<MakanSiang>{
                                                   Image.asset("assets/images/oseng_tempe.png", width: 200.0),
                                                   SizedBox(height: 5.0),
                                                   Text("Oseng\nTempe", style: TextStyle(
-                                                      color: Colors.black,
-                                                      fontSize: 15.0
-                                                  )),
-                                                ],
-                                              ),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      width: 140.0,
-                                      height: 180.0,
-                                      child: Card(
-                                        color: Colors.grey.shade100,
-                                        elevation: 2.0,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius: BorderRadius.circular(8.0)),
-                                        child: InkWell(
-                                          onTap: () {},
-                                          splashColor: Colors.grey[400],
-                                          child: Center(
-                                            child: Padding(
-                                              padding: const EdgeInsets.all(1.0),
-                                              child: Column(
-                                                children: [
-                                                  Image.asset("assets/images/capcay.png", width: 200.0),
-                                                  SizedBox(height: 5.0),
-                                                  Text("Capcay\nGoreng", style: TextStyle(
                                                       color: Colors.black,
                                                       fontSize: 15.0
                                                   )),

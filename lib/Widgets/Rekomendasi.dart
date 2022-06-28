@@ -2,6 +2,9 @@ import "package:flutter/material.dart";
 import '../Widgets/GulaDarah.dart';
 import '../Widgets/Anemia.dart';
 import '../Widgets/AsamLambung.dart';
+import '../Widgets/Kolestrol.dart';
+import '../Widgets/DarahTinggi.dart';
+import '../Widgets/AsamUrat.dart';
 
 class Rekomendasi extends StatefulWidget {
   @override
@@ -132,7 +135,12 @@ class _RekomendasiState extends State<Rekomendasi> {
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(3.0)),
                                     child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(builder: (context) => DarahTinggi()),
+                                          );
+                                        },
                                         splashColor: Colors.lightGreen,
                                         child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -207,7 +215,12 @@ class _RekomendasiState extends State<Rekomendasi> {
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(3.0)),
                                     child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(builder: (context) => AsamUrat()),
+                                          );
+                                        },
                                         splashColor: Colors.lightGreen,
                                         child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -247,7 +260,12 @@ class _RekomendasiState extends State<Rekomendasi> {
                                     shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(3.0)),
                                     child: InkWell(
-                                        onTap: () {},
+                                        onTap: () {
+                                          Navigator.push(
+                                            context,
+                                            MaterialPageRoute(builder: (context) => Kolestrol()),
+                                          );
+                                        },
                                         splashColor: Colors.lightGreen,
                                         child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
