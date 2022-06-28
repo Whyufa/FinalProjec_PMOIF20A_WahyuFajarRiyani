@@ -3,12 +3,12 @@ import '../Widgets/GulaDarah.dart';
 import '../Widgets/Anemia.dart';
 import '../Widgets/AsamLambung.dart';
 
-class rekomendasi extends StatefulWidget {
+class Rekomendasi extends StatefulWidget {
   @override
-  _rekomendasiState createState() => _rekomendasiState();
+  _RekomendasiState createState() => _RekomendasiState();
 }
 
-class _rekomendasiState extends State<rekomendasi> {
+class _RekomendasiState extends State<Rekomendasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
