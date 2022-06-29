@@ -2,6 +2,10 @@ import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:carousel_slider/carousel_slider.dart';
 import '../Widgets/Sarapan.dart';
+import '../Widgets/MakanSiang.dart';
+import '../Widgets/MakanMalam.dart';
+import '../Widgets/Sayuran.dart';
+import '../Widgets/AkunUser.dart';
 
 class MenuUtama extends StatefulWidget {
   @override
@@ -36,7 +40,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                             color: Colors.amber,
                             fontSize: 25,
                             fontWeight: FontWeight.bold),),
-                        Image.asset("assets/images/foto_profile.png", width: 50.0)
+                        IconButton(icon: Icon(Icons.person,), onPressed: (){
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => Profile()),
+                          );
+                        })
                       ],
                     )),
                 Padding(
@@ -98,7 +107,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(builder: (context) => MakanSiang()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
@@ -127,7 +141,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => MakanMalam()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
@@ -156,17 +175,22 @@ class _MenuUtamaState extends State<MenuUtama> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0)),
                               child: InkWell(
-                                  onTap: () {},
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Sayuran()),
+                                    );
+                                  },
                                   splashColor: Colors.lightGreen,
                                   child: Center(
                                     child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
+                                      padding: const EdgeInsets.all(10.0),
                                       child: Column(
                                         children: [
-                                          Image.asset("assets/images/snack.png",
-                                              width: 85.0),
-                                          SizedBox(height: 10.0),
-                                          Text("Snack", style: TextStyle(
+                                          Image.asset("assets/images/sayur.png",
+                                              width: 125.0),
+                                          SizedBox(height: 15.0),
+                                          Text("Sayuran", style: TextStyle(
                                               color: Colors.black,
                                               fontSize: 15.0
                                           )),
