@@ -1,6 +1,7 @@
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/BacaTips.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/CaraMemasak.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/MencuciSayur.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakananPemulihan.dart';
 import "package:flutter/material.dart";
 
 class Tips extends StatefulWidget {
@@ -169,7 +170,8 @@ class _TipsState extends State<Tips> {
                                   borderRadius: BorderRadius.circular(3.0)),
                               child: InkWell(
                                   onTap: () {
-
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => MakananPemulihan()),
+                                    );
                                   },
                                   splashColor: Colors.lightGreen,
                                   child: Column(
