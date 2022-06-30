@@ -159,6 +159,49 @@ class _TipsState extends State<Tips> {
                               )
                           )
                       ),
+                      SizedBox(
+                          width: 400.0,
+                          height: 300.0,
+                          child: Card(
+                              color: Colors.grey.shade100,
+                              elevation: 2.0,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(3.0)),
+                              child: InkWell(
+                                  onTap: () {
+
+                                  },
+                                  splashColor: Colors.lightGreen,
+                                  child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Padding(
+                                            padding: const EdgeInsets.all(7.0),
+                                            child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
+                                                  Image.asset("assets/images/makanan_pemulihan.png",
+                                                      width: 352.0),
+                                                ]
+                                            )
+                                        ),
+                                        Padding(
+                                            padding: const EdgeInsets.only(left: 9.0),
+                                            child: Row(
+                                              mainAxisAlignment: MainAxisAlignment.start,
+                                              children: [
+                                                Text("Inilah Makanan Pemulihan setelah Sembuh dari COVID-19",
+                                                  style: TextStyle(
+                                                      fontSize: 12.0),
+                                                )
+                                              ],
+                                            )
+                                        ),
+                                      ]
+                                  )
+                              )
+                          )
+                      ),
                     ],
                   ),
                 ),

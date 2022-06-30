@@ -27,7 +27,7 @@ class _BacaTipsState extends State<BacaTips> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 2960.0,
+                        height: 2700.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
@@ -58,9 +58,9 @@ class _BacaTipsState extends State<BacaTips> {
                                     children: [
                                       Text("Diet kerap digunakan sebagai cara untuk mendapatkan \n"
                                           "berat badan ideal. Namun, pola makan untuk diet sehat \n"
-                                          "bukan berarti harus dilakukan dengan melewatkan \n"
-                                          "waktu makan. Untuk mengetahui cara tepat menjalani \n"
-                                          "diet sehat,simak penjelasannya dalam artikel berikut.",
+                                          "bukan berarti harus dilakukan dengan melewatkan waktu \n"
+                                          "makan. Untuk mengetahui cara tepat menjalani diet \n"
+                                          "sehat,simak penjelasannya dalam artikel berikut.",
                                         style: TextStyle(
                                           fontSize: 13,
                                           fontWeight: FontWeight.bold

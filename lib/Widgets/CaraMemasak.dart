@@ -27,7 +27,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 1670.0,
+                        height: 1500.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
