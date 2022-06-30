@@ -74,13 +74,14 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Perebusan adalah cara memasak dengan cara memanaskan \n"
-                                          "air atau kaldu hingga mendidih, kemudian memasukkan \n"
-                                          "makanan ke dalam air tersebut hingga matang. Sedangkan \n"
-                                          "mengukus adalah proses pematangan makanan dengan \n"
-                                          "menggunakan uap panas yang berasal dari air mendidih. \n"
-                                          "Caranya, panaskan air di dalam panci pemblokiran, lalu \n"
-                                          "taruh makanan di atas pemblokiran sampai matang.",
+                                      Text("Perebusan adalah cara memasak dengan cara \n"
+                                          "memanaskan air atau kaldu hingga mendidih, kemudian \n"
+                                          "memasukkan makanan ke dalam air tersebut hingga \n"
+                                          "matang. Sedangkan mengukus adalah proses pematangan \n"
+                                          "makanan dengan menggunakan uap panas yang berasal \n"
+                                          "dari air mendidih. Caranya, panaskan air di dalam \n"
+                                          "panci pemblokiran, lalu taruh makanan di atas \n"
+                                          "pemblokiran sampai matang.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),

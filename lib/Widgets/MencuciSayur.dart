@@ -27,7 +27,7 @@ class _MencuciSayurState extends State<MencuciSayur> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 2380.0,
+                        height: 2415.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
@@ -58,11 +58,12 @@ class _MencuciSayurState extends State<MencuciSayur> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Mencuci sayur dan buah penting dilakukan untuk menjaga \n"
-                                          "kebersihan makanan tersebut sebelum dikonsumsi. Jika \n"
-                                          "tidak dicuci, disimpan, atau diolah dengan benar, buah \n"
-                                          "dan sayuran bisa terkontaminasi bakteri, virus, atau \n"
-                                          "parasit yang dapat menyebabkan penyakit.",
+                                      Text("Mencuci sayur dan buah penting dilakukan untuk \n"
+                                          "menjaga kebersihan makanan tersebut sebelum \n"
+                                          "dikonsumsi. Jika tidak dicuci, disimpan, atau diolah \n"
+                                          "dengan benar, buah dan sayuran bisa terkontaminasi \n"
+                                          "bakteri, virus, atau parasit yang dapat menyebabkan \n"
+                                          "penyakit.",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -95,7 +96,7 @@ class _MencuciSayurState extends State<MencuciSayur> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Image.asset("assets/images/mencuci_sayur.png", width: 355.0)
+                                      Image.asset("assets/images/mencuci_sayur.png", width: 342.0)
                                     ],
                                   ),
                                 ),
@@ -138,9 +139,10 @@ class _MencuciSayurState extends State<MencuciSayur> {
                                     children: [
                                       Text("Orang yang mengalami keracunan makanan biasanya akan \n"
                                           "mengalami berbagai gejala, seperti mual, diare, muntah, \n"
-                                          "sakit perut, lemas, dan demam. Gejala ini bisa muncul dalam \n"
-                                          "waktu beberapa jam setelah orang tersebut mengonsumsi \n"
-                                          "buah atau sayur yang tidak dicuci dengan baik.",
+                                          "sakit perut, lemas, dan demam. Gejala ini bisa muncul \n"
+                                          "dalam waktu beberapa jam setelah orang tersebut \n"
+                                          "mengonsumsi buah atau sayur yang tidak dicuci dengan \n"
+                                          "baik.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -167,9 +169,9 @@ class _MencuciSayurState extends State<MencuciSayur> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Berbagai mikroorganisme penyebab penyakit, seperti bakteri, \n"
-                                          "virus, dan parasit, bisa mencemari buah dan sayuran dari \n"
-                                          "berbagai sumber, di antaranya :",
+                                      Text("Berbagai mikroorganisme penyebab penyakit, seperti \n"
+                                          "bakteri, virus, dan parasit, bisa mencemari buah dan \n"
+                                          "sayuran dari berbagai sumber, di antaranya :",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -182,10 +184,11 @@ class _MencuciSayurState extends State<MencuciSayur> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("a. Air yang digunakan untuk irigasi di kebun atau sawah. \n"
+                                      Text("a. Air yang digunakan untuk irigasi di kebun sawah. \n"
                                           "b. Pupuk organik atau pupuk kandang. \n"
                                           "c. Kotoran hewan atau tanah. \n"
-                                          "d. Proses pengemasan buah dan sayuran yang tidak higienis",
+                                          "d. Proses pengemasan buah dan sayuran yang tidak \n"
+                                          "    higienis",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
