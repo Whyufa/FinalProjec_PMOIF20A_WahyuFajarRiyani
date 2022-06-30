@@ -43,7 +43,7 @@ class _MenuUtamaState extends State<MenuUtama> {
                         IconButton(icon: Icon(Icons.person,), onPressed: (){
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => Profile()),
+                            MaterialPageRoute(builder: (context) => ProfileU()),
                           );
                         })
                       ],
