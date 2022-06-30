@@ -10,12 +10,12 @@ const email = "whyufa115@gmail.com";
 const phone = "0877-3257-6951"; // not real number :)
 const location = "Purwokkerto";
 
-class Profile extends StatefulWidget {
+class ProfileU extends StatefulWidget {
   @override
-  _ProfileState createState() => _ProfileState();
+  _ProfileUState createState() => _ProfileUState();
 }
 
-class _ProfileState extends State<Profile> {
+class _ProfileUState extends State<ProfileU> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,13 +32,13 @@ class _ProfileState extends State<Profile> {
           );
           },)),
           body: SafeArea(
-          minimum: EdgeInsets.only(top: 100),
-          child: ListView(
-          children: <Widget>[
-          CircleAvatar(
-          radius: 50,
-          backgroundImage: AssetImage('assets/images/foto_profile.png'),
-          ),
+            minimum: EdgeInsets.only(top: 50),
+            child: ListView(
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 50,
+                  backgroundImage: AssetImage('assets/images/foto_profile.png'),
+                  ),
           Text(
           "Whyufa",
           style: TextStyle(
@@ -73,34 +73,32 @@ class _ProfileState extends State<Profile> {
                     icon: Icons.location_city,
                     onPressed: () async {}),
                 InfoCard(text: email, icon: Icons.email, onPressed: () async {}),
-                SizedBox(
-                  height: 30,
-                  width: 30,
-                  child: Card(
-                    color: Colors.grey,
-                    elevation: 2.0,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(8.0)
-                    ),
-                    child: InkWell(
-                      onTap: () {
-                       Navigator.push(
-                         context,
-                         MaterialPageRoute(builder: (context) => BMI()),
-                       );
-                      },
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text("BMI", style: TextStyle(
-                                color: Colors.grey[400],
-                                fontSize: 10,
-                                fontWeight: FontWeight.bold))],
-                        )
-                    ),
+            SizedBox(
+              width: 40.0,
+              height: 60.0,
+              child: Card(
+                  color: Colors.grey.shade100,
+                  elevation: 2.0,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8.0)),
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => BMI()),
+                      );
+                    },
+                    splashColor: Colors.lightGreen,
+                    child: Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                            children: [
+                              Text("Hitung Indeks Masa Tubuh", style: TextStyle(fontWeight: FontWeight.bold),)
+                    ]),
                   ),
                 ),
-              ],
+                  )))],
             ),
         )
     );

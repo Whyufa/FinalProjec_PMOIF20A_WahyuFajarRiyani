@@ -18,7 +18,7 @@ class _ProfileState extends State<Profile> {
         appBar: AppBar(
           backgroundColor: Colors.lightGreen,
           title: Text(
-            'Profile Admin',
+            'Profile User',
             style: TextStyle(color: Colors.white),
           ),
         ),
@@ -44,7 +44,7 @@ class _ProfileState extends State<Profile> {
                   ),
                 ),
                 Text(
-                  "Admin",
+                  "User",
                   style: TextStyle(
                     fontSize: 30.0,
                     color: Colors.grey,

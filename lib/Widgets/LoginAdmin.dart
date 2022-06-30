@@ -1,16 +1,17 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/loginUser.dart';
 import 'package:flutter/material.dart';
 import '../Screen/HomeScreenUser.dart';
 import '../Screen/HomeScreenAdmin.dart';
-import '../Widgets/LoginAdmin.dart';
+import '../Widgets/loginUser.dart';
 
-class LoginUser extends StatefulWidget {
-  const LoginUser({Key? key}) : super(key: key);
+class LoginAdmin extends StatefulWidget {
+  const LoginAdmin({Key? key}) : super(key: key);
 
   @override
-  _LoginUserState createState() => _LoginUserState();
+  _LoginAdminState createState() => _LoginAdminState();
 }
 
-class _LoginUserState extends State<LoginUser> {
+class _LoginAdminState extends State<LoginAdmin> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,6 +36,7 @@ class _LoginUserState extends State<LoginUser> {
 
             SizedBox(height: 20,),
             TextFormField(
+              obscureText: true,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 focusedBorder: OutlineInputBorder(
@@ -72,7 +74,7 @@ class _LoginUserState extends State<LoginUser> {
                   splashColor: Colors.white,
                   onTap: (){
                     Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => MyHomePage()),
+                      context, MaterialPageRoute(builder: (context) => Home()),
                     );
                   },
                   child: Center(
@@ -91,10 +93,10 @@ class _LoginUserState extends State<LoginUser> {
               ),
               onPressed: (){
                 Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => LoginAdmin()),
+                  context, MaterialPageRoute(builder: (context) => LoginUser()),
                 );
               },
-              child: const Text('Masuk Sebagai Admin', style: TextStyle(color: Colors.white, decoration: TextDecoration.underline),),
+              child: const Text('Masuk Sebagai User', style: TextStyle(color: Colors.white, decoration: TextDecoration.underline),),
             ),
 
           ],

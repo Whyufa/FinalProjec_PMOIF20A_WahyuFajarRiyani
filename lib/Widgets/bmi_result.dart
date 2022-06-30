@@ -17,6 +17,7 @@ class BMIResult extends StatelessWidget {
     else cBMI="Underweight";
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.lightGreen,
         centerTitle: true,
         title: Text('RESULT'),
       ),
