@@ -17,6 +17,7 @@ class BMIResult extends StatelessWidget {
     else cBMI="Underweight";
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.lightGreen,
         centerTitle: true,
         title: Text('RESULT'),
       ),
@@ -39,26 +40,9 @@ class BMIResult extends StatelessWidget {
               style: TextStyle(
                 fontSize: 100,
                 fontWeight: FontWeight.w800,
-                color: Colors.white,
+                color: Colors.black,
               ),
             ),
-            Text(
-              'Normal BMI Range',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
-                color: Colors.white60,
-              ),
-            ),
-            Text(
-              '17,5 -  22.9 ',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
-                color: Colors.white,
-              ),
-            ),
-
           ],
         ),
       ),

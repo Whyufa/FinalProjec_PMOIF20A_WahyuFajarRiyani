@@ -1,6 +1,8 @@
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/BacaTips.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/CaraMemasak.dart';
 import 'package:finalprojec_pmoif20a_wahyu/Widgets/MencuciSayur.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/MakananPemulihan.dart';
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/PenambahBeratBdn.dart';
 import "package:flutter/material.dart";
 
 class Tips extends StatefulWidget {
@@ -51,7 +53,7 @@ class _TipsState extends State<Tips> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Image.asset("assets/images/tips_diet.png",
-                                        width: 352.0),
+                                        width: 355.0),
                                     ],
                                   ),
                                 ),
@@ -94,7 +96,7 @@ class _TipsState extends State<Tips> {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Image.asset("assets/images/rebus_kukus.png",
-                                        width: 352.0),
+                                        width: 355.0),
                                     ]
                                   )
                                 ),
@@ -137,7 +139,7 @@ class _TipsState extends State<Tips> {
                                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                 children: [
                                                   Image.asset("assets/images/mencuci_sayur.png",
-                                                      width: 352.0),
+                                                      width: 355.0),
                                                 ]
                                             )
                                         ),
@@ -150,6 +152,94 @@ class _TipsState extends State<Tips> {
                                                     "Berbagai Penyakit",
                                                   style: TextStyle(
                                                     fontSize: 12.0),
+                                                )
+                                              ],
+                                            )
+                                        ),
+                                      ]
+                                  )
+                              )
+                          )
+                      ),
+                      SizedBox(
+                          width: 400.0,
+                          height: 300.0,
+                          child: Card(
+                              color: Colors.grey.shade100,
+                              elevation: 2.0,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(3.0)),
+                              child: InkWell(
+                                  onTap: () {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => MakananPemulihan()),
+                                    );
+                                  },
+                                  splashColor: Colors.lightGreen,
+                                  child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Padding(
+                                            padding: const EdgeInsets.all(7.0),
+                                            child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
+                                                  Image.asset("assets/images/makanan_pemulihan.png",
+                                                      width: 355.0),
+                                                ]
+                                            )
+                                        ),
+                                        Padding(
+                                            padding: const EdgeInsets.only(left: 9.0),
+                                            child: Row(
+                                              mainAxisAlignment: MainAxisAlignment.start,
+                                              children: [
+                                                Text("Inilah Makanan Pemulihan setelah Sembuh dari COVID-19",
+                                                  style: TextStyle(
+                                                      fontSize: 12.0),
+                                                )
+                                              ],
+                                            )
+                                        ),
+                                      ]
+                                  )
+                              )
+                          )
+                      ),
+                      SizedBox(
+                          width: 400.0,
+                          height: 300.0,
+                          child: Card(
+                              color: Colors.grey.shade100,
+                              elevation: 2.0,
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(3.0)),
+                              child: InkWell(
+                                  onTap: () {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => PenambahBeratBdn()),
+                                    );
+                                  },
+                                  splashColor: Colors.lightGreen,
+                                  child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Padding(
+                                            padding: const EdgeInsets.all(7.0),
+                                            child: Row(
+                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                children: [
+                                                  Image.asset("assets/images/penambah_beratbdn.png",
+                                                      width: 355.0),
+                                                ]
+                                            )
+                                        ),
+                                        Padding(
+                                            padding: const EdgeInsets.only(left: 9.0),
+                                            child: Row(
+                                              mainAxisAlignment: MainAxisAlignment.start,
+                                              children: [
+                                                Text("Makanan Penambah Berat Badan Bukan yang Sekadar Berlemak",
+                                                  style: TextStyle(
+                                                      fontSize: 12.0),
                                                 )
                                               ],
                                             )

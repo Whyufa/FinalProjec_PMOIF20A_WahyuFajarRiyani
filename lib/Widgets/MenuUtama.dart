@@ -5,6 +5,7 @@ import '../Widgets/Sarapan.dart';
 import '../Widgets/MakanSiang.dart';
 import '../Widgets/MakanMalam.dart';
 import '../Widgets/Sayuran.dart';
+import '../Widgets/AkunUser.dart';
 
 class MenuUtama extends StatefulWidget {
   @override
@@ -39,7 +40,12 @@ class _MenuUtamaState extends State<MenuUtama> {
                             color: Colors.amber,
                             fontSize: 25,
                             fontWeight: FontWeight.bold),),
-                        IconButton(icon: Icon(Icons.person,), onPressed: (){})
+                        IconButton(icon: Icon(Icons.person,), onPressed: (){
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => ProfileU()),
+                          );
+                        })
                       ],
                     )),
                 Padding(

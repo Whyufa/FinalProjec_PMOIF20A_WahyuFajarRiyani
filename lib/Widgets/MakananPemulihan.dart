@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class BacaTips extends StatefulWidget {
+class MakananPemulihan extends StatefulWidget {
   @override
-  _BacaTipsState createState() => _BacaTipsState();
+  _MakananPemulihanState createState() => _MakananPemulihanState();
 }
 
-class _BacaTipsState extends State<BacaTips> {
+class _MakananPemulihanState extends State<MakananPemulihan> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightGreen,
-        title: Image.asset("assets/images/brand.png")
+          backgroundColor: Colors.lightGreen,
+          title: Image.asset("assets/images/brand.png")
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -27,12 +27,12 @@ class _BacaTipsState extends State<BacaTips> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 2700.0,
+                        height: 2725.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8.0)),
+                              borderRadius: BorderRadius.circular(8.0)),
                           child: InkWell(
                             onTap: () {},
                             splashColor: Colors.grey[400],
@@ -44,27 +44,11 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Tips Pola Makan untuk Diet Sehat", style: TextStyle(
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Diet kerap digunakan sebagai cara untuk mendapatkan \n"
-                                          "berat badan ideal. Namun, pola makan untuk diet sehat \n"
-                                          "bukan berarti harus dilakukan dengan melewatkan waktu \n"
-                                          "makan. Untuk mengetahui cara tepat menjalani diet \n"
-                                          "sehat,simak penjelasannya dalam artikel berikut.",
+                                      Text("Inilah Makanan Pemulihan setelah Sembuh dari \n"
+                                          "COVID-19",
                                         style: TextStyle(
-                                          fontSize: 13,
-                                          fontWeight: FontWeight.bold
-                                        ),
+                                            fontSize: 15,
+                                            fontWeight: FontWeight.bold),
                                       ),
                                     ],
                                   ),
@@ -74,65 +58,12 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Kunci diet sehat adalah menyeimbangkan jumlah kalori \n"
-                                          "yang dikonsumsi dengan yang dikeluarkan. Selain itu, \n"
-                                          "diet yang sehat juga perlu dilakukan dengan memenuhi \n"
-                                          "kebutuhan nutrisi tubuh, seperti protein, karbohidrat, \n"
-                                          "lemak, serta aneka vitamin dan mineral.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Image.asset("assets/images/tips_diet.png", width: 342.0)
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Tak hanya untuk memenuhi kebutuhan energi dan nutrisi \n"
-                                          "tubuh, pola makan untuk diet sehat juga baik untuk \n"
-                                          "menjaga berat badan tetap ideal dan mengurangi risiko \n"
-                                          "terjadinya penyakit tertentu, seperti penyakit jantung, \n"
-                                          "stroke, dan diabetes tipe 2.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Untuk melakukan diet sehat, penting bagi Anda untuk \n"
-                                          "mengetahui panduan kebutuhan kalori harian dan apa saja \n"
-                                          "pilihan makanan yang baik untuk dikonsumsi.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Rekomendasi Jumlah Asupan Kalori Harian",
+                                      Text("Setelah sembuh dari COVID-19, sebagian orang masih dapat \n"
+                                          "merasakan berbagai gejala jangka panjang atau long-haul \n"
+                                          "COVID-19. Meski begitu, Anda dapat mengatasinya dengan \n"
+                                          "meningkatkan kesehatan tubuh. Salah satu caranya adalah \n"
+                                          "mengonsumsi makanan sehat guna mempercepat proses \n"
+                                          "pemulihan.",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -146,11 +77,11 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Berat badan Anda akan meningkat saat jumlah kalori yang \n"
-                                          "dikonsumsi melebih batas kalori yang diperlukan oleh \n"
-                                          "tubuh, terlebih bila Anda juga jarang berolahraga. Sebab, \n"
-                                          "kelebihan kalori yang tidak digunakan oleh tubuh akan \n"
-                                          "disimpan sebagai lemak.",
+                                      Text("Kondisi tubuh seseorang yang sudah dinyatakan sembuh dari \n"
+                                          "COVID-19 umumnya akan kembali normal tanpa gejala. \n"
+                                          "Namun, ada beberapa orang yang merasakan long-haul \n"
+                                          "COVID-19, yaitu gejala yang masih dirasakan meski sudah \n"
+                                          "dinyatakan sembuh dari COVID-19",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -163,9 +94,20 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Oleh karena itu, agar berat badan dan kesehatan tubuh \n"
-                                          "tetap terjaga, jumlah kalori harian yang Anda konsumsi \n"
-                                          "harus seimbang.",
+                                      Image.asset("assets/images/makanan_pemulihan.png", width: 342.0)
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Gejala long-haul COVID-19 yang paling sering adalah mudah \n"
+                                          "lelah sehingga aktivitas menjadi terganggu. Keluhan tersebut \n"
+                                          "bisa diperparah atau dipicu oleh banyak hal, mulai dari \n"
+                                          "gangguan tidur, stres, rasa cemas, hingga pola makan yang \n"
+                                          "buruk.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -178,40 +120,7 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Kebutuhan kalori setiap orang dapat berbeda-beda, \n"
-                                          "tergantung usia dan jenis kelamin. Berikut ini adalah \n"
-                                          "rekomendasi asupan kalori harian berdasarkan usia \n"
-                                          "menurut Kementerian Kesehatan Republik Indonesia :",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("a. Anak-anak usia 1–6 tahun: 1.350–1.400 kalori, \n"
-                                          "b. Anak-anak usia 7–9 tahun: 1.650 kalori, \n"
-                                          "c. Remaja: 2.000–2.650 kalori, \n"
-                                          "d. Dewasa: 2.150–2.650 kalori, \n"
-                                          "e. Wanita hamil dan menyusui: 2.400–2.650 kalori.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Pilihan Makanan untuk Diet Sehat",
+                                      Text("Makanan Pemulihan setelah Sembuh dari COVID-19",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -225,11 +134,10 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Pilihan makanan dan minuman yang Anda konsumsi perlu \n"
-                                          "disesuaikan dengan kebutuhan kalori tubuh setiap harinya. \n"
-                                          "Anda bisa mencukupi asupan kalori tersebut dari berbagai \n"
-                                          "makanan, seperti telur, ikan, daging, buah-buahan, dan \n"
-                                          "sayuran.",
+                                      Text("Pola makan turut memengaruhi proses pemulihan dari \n"
+                                          "COVID-19. Hal ini karena mengonsumsi makanan yang sehat \n"
+                                          "dan bergizi seimbang dapat meningkatkan stamina dan daya \n"
+                                          "tahan tubuh dalam melawan penyakit.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -242,10 +150,10 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Bila Anda mengonsumsi makanan dan minuman kemasan, \n"
-                                          "Anda bisa menyesuaikan kalori yang masuk ke dalam \n"
-                                          "tubuh dengan melihat jumlah kalori yang biasanya \n"
-                                          "tertera pada label kemasan.",
+                                      Text("Dalam menerapkan pola makan sehat, Anda bisa mulai dari \n"
+                                          "menentukan menu makan harian. Pastikan Anda \n"
+                                          "mengonsumsi berbagai kelompok makanan bergizi seimbang \n"
+                                          "sehingga asupan nutrisi harian bisa terpenuhi.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -258,9 +166,8 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Secara umum, ada beberapa pilihan makanan yang bisa \n"
-                                          "Anda konsumsi saat menjalani pola makan untuk diet \n"
-                                          "sehat, di antaranya :",
+                                      Text("Nah, salah satu menu makan yang dapat membantu proses \n"
+                                          "pemulihan setelah sembuh dari COVID-19 adalah sup.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -273,18 +180,10 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("a. Sayuran, seperti bayam, brokoli, jamur, ubi, sawi, dan \n"
-                                          "    wortel. \n"
-                                          "b. Buah-buahan, misalnya mangga, pisang, alpukat, dan \n"
-                                          "    apel. \n"
-                                          "c. Serealia atau biji-bijian, misalnya gandum utuh, \n"
-                                          "    oatmeal, dan brown rice, \n"
-                                          "d. Susu rendah lemak dan produk olahannya, termasuk \n"
-                                          "    yoghurt dan keju, \n"
-                                          "e. Sumber protein, termasuk makanan laut, unggas, telur, \n"
-                                          "    daging, dan kacang-kacangan, \n"
-                                          "f. Minyak sehat, misalnya minyak sayur, minyak kedelai, \n"
-                                          "    dan minyak kanola. \n",
+                                      Text("Sup dapat menjadi “teman baik” di kala sakit maupun selama \n"
+                                          "pemulihan, karena terdiri dari beragam bahan makanan, \n"
+                                          "seperti daging ayam, telur, serta sayuran seperti jagung, \n"
+                                          "wortel, buncis, dan kacang-kacangan.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -297,8 +196,105 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Makanan yang Perlu Dihindari Saat Menjalani Diet \n"
-                                          "Sehat",
+                                      Text("Dengan mengonsumsi semangkuk sup, Anda dapat \n"
+                                          "memenuhi asupan gizi seimbang, karena bahan makanan \n"
+                                          "di dalamnya mengandung protein, karbohidrat, vitamin, \n"
+                                          "mineral, dan serat yang dibutuhkan oleh tubuh.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Sup juga mengandung air yang dapat memenuhi kebutuhan \n"
+                                          "cairan tubuh. Selain itu, sup yang dikonsumsi selagi hangat \n"
+                                          "bisa meredakan hidung tersumbat serta melegakan gatal dan \n"
+                                          "nyeri tenggorokan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Melihat beragam khasiat sup, makanan ini menjadi pilihan \n"
+                                          "yang cocok bagi penderita COVID-19 maupun orang yang \n"
+                                          "sedang dalam masa pemulihan setelah sembuh dari \n"
+                                          "COVID-19.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Cara membuat sup pun tidaklah sulit. Bahkan, kini sudah \n"
+                                          "tersedia sup instan yang mudah dibuat serta bergizi dan \n"
+                                          "tentunya bermanfaat bagi kesehatan. Rasanya pun beragam \n"
+                                          "dan bisa disesuaikan dengan selera. Beberapa contohnya \n"
+                                          "adalah sup kepiting, sup jagung, atau sup ayam.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Sup instan bisa semakin bergizi jika Anda mencampurkan \n"
+                                          "bahan lain, seperti sayuran dan kacang-kacangan. Selain \n"
+                                          "sup, masih banyak menu makan sehat lain yang juga bisa \n"
+                                          "membantu proses pemulihan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Namun, pastikan menu makan sehat yang dikonsumsi juga \n"
+                                          "berisikan beragam bahan makanan bergizi, seperti daging \n"
+                                          "tanpa lemak, sayur, dan kacang-kacangan. Jangan lupa pula \n"
+                                          "untuk mengonsumsi buah-buahan agar kebutuhan gizi harian \n"
+                                          "terpenuhi dengan baik.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Cara Meningkatkan Daya Tahan Tubuh",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -312,9 +308,11 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Dalam menjalani pola makan sehat, Anda perlu \n"
-                                          "membatasi konsumsi makanan yang banyak mengandung \n"
-                                          "garam, lemak jenuh atau kolesterol, serta gula tambahan.",
+                                      Text("Selain pola makan, pola hidup sehat juga diperlukan untuk \n"
+                                          "membantu pemulihan setelah sembuh dari COVID-19 dan \n"
+                                          "meningkatkan daya tahan tubuh. Berikut ini adalah beragam \n"
+                                          "cara yang bisa Anda terapkan untuk menciptakan pola hidup \n"
+                                          "sehat:",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -327,36 +325,7 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Anjuran konsumsi garam, gula, dan lemak oleh pemerintah \n"
-                                          "Republik Indonesia adalah :",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("a. Gula: 4 sendok makan atau 50 gram per hari, \n"
-                                          "b. Garam: 1 sendok teh atau 5 gram per hari, \n"
-                                          "c. Lemak: 5 sendok makan atau 67 gram per hari.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Tips Pola Makan untuk Diet Sehat",
+                                      Text("1. Mengonsumsi air putih yang cukup",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -370,10 +339,11 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Keberhasilan diet dan menerapkan pola makan sehat \n"
-                                          "dimulai dengan mengubah kebiasaan makan secara \n"
-                                          "bertahap dan konsisten. Berikut ini adalah beberapa \n"
-                                          "tips yang bisa Anda terapkan untuk memulai diet sehat :",
+                                      Text("Pastikan Anda minum air putih yang cukup, yaitu sekitar 8 \n"
+                                          "gelas atau 2 liter setiap harinya. Menurut penelitian, selain \n"
+                                          "mencegah dehidrasi, mengonsumsi air putih yang cukup juga \n"
+                                          "dapat membantu sistem kekebalan tubuh bekerja secara \n"
+                                          "optimal.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -386,7 +356,22 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Hindari melewatkan waktu makan",
+                                      Text("Selain mengonsumsi air putih yang cukup, Anda juga perlu \n"
+                                          "menghindari konsumsi minuman beralkohol dan berkafein, \n"
+                                          "seperti kopi maupun teh.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("2. Berolahraga secara rutin",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -400,11 +385,11 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Menunda atau melewatkan waktu makan, khususnya \n"
-                                          "sarapan, dapat membuat tubuh kekurangan energi. \n"
-                                          "Kebiasaan tidak sarapan juga dapat menyebabkan tubuh \n"
-                                          "kekurangan nutrisi tertentu, misalnya protein, kalsium, \n"
-                                          "magnesium, zinc, vitamin A, vitamin C, dan folat.",
+                                      Text("Meski selama proses pemulihan Anda merasa letih dan lelah, \n"
+                                          "usahakan untuk tetap aktif bergerak dan berolahraga secara \n"
+                                          "rutin. Anda bisa melakukan olahraga ringan, seperti berjalan \n"
+                                          "kaki di sekitar rumah. Lakukan secara bertahap agar tubuh \n"
+                                          "bisa menyesuaikan diri.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -417,7 +402,23 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Makan sebelum lapar",
+                                      Text("Jika sudah mulai terbiasa dengan ritmenya, coba tingkatkan \n"
+                                          "dengan berjalan cepat dengan durasi yang lebih panjang. \n"
+                                          "Ingat, jangan paksakan tubuh dan segeralah beristirahat bila \n"
+                                          "Anda mulai merasa kelelahan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("3. Mengelola stres dengan baik",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -431,11 +432,12 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Anda disarankan untuk makan sebelum rasa lapar muncul. \n"
-                                          "Dengan demikian, porsi makan Anda akan lebih terkontrol \n"
-                                          "dan Anda menjadi cepat kenyang. Hindari makan atau \n"
-                                          "ngemil saat Anda sudah merasa sangat lapar atau ketika \n"
-                                          "Anda sedang cemas atau stres.",
+                                      Text("Stres juga bisa menghambat pemulihan dari COVID-19. \n"
+                                          "Namun, stres dapat dikelola dan diatasi dengan cara \n"
+                                          "mengalihkan perhatian ke aktivitas yang positif, seperti \n"
+                                          "meditasi, menuangkan perasaan ke dalam buku harian, \n"
+                                          "menceritakan keresahan ke orang terdekat, serta \n"
+                                          "menyalurkan hobi.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -448,24 +450,7 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Jika Anda makan pada situasi tersebut, dorongan \n"
-                                          "untuk makan berlebihan akan lebih tinggi, sehingga \n"
-                                          "Anda akan sulit mengatur porsi makan dan jenis \n"
-                                          "makanan yang dikonsumsi. Akibatnya, berat badan pun \n"
-                                          "akan sulit dikendalikan.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Batasi kebiasaan ngemil",
+                                      Text("4. Mencukupi waktu istirahat",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -479,10 +464,10 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Kurangi kebiasaan mengonsumsi camilan untuk \n"
-                                          "menghilangkan rasa lapar atau mengisi waktu senggang, \n"
-                                          "terlebih camilan yang kurang sehat, seperti keripik, \n"
-                                          "gorengan, atau es krim.",
+                                      Text("Pastikan Anda mencukupi waktu tidur, yaitu minimal 7 jam \n"
+                                          "setiap malamnya. Jika Anda mengalami insomnia setelah \n"
+                                          "sembuh dari COVID-19, coba atur pola tidur agar tidur dan \n"
+                                          "bangun di waktu atau jam yang sama setiap harinya.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -495,13 +480,9 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Meski terasa nikmat, jenis camilan tersebut \n"
-                                          "mengandung banyak lemak jenuh, gula, serta garam, \n"
-                                          "namum rendah kandungan nutrisinya. Sebagai gantinya, \n"
-                                          "Anda dapat mengganti camilan dengan pilihan yang \n"
-                                          "lebih sehat, seperti buah-buahan, kacang almond, \n"
-                                          "telur rebus, atau yoghurt tinggi protein, namun \n"
-                                          "rendah lemak.",
+                                      Text("Supaya bisa cepat tidur, ciptakan suasana tidur yang nyaman \n"
+                                          "dengan meredupkan lampu, mematikan TV, dan menjauhkan \n"
+                                          "gadget dari jangkauan Anda.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -514,12 +495,44 @@ class _BacaTipsState extends State<BacaTips> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Pada dasarnya, pola makan untuk diet sehat di atas baik \n"
-                                          "dilakukan untuk menjaga kondisi kesehatan. Namun, jika \n"
-                                          "Anda menderita penyakit tertentu, seperti hipertensi atau \n"
-                                          "diabetes, sebaiknya konsultasikan dengan dokter untuk \n"
-                                          "menentukan pola makan yang sehat dan tepat, sesuai \n"
-                                          "kondisi dan kebutuhan Anda.",
+                                      Text("Menerapkan pola hidup sehat dan mengonsumsi makanan \n"
+                                          "yang sehat memang bisa mempercepat proses pemulihan \n"
+                                          "setelah sembuh dari COVID-19. Hal ini karena keduanya \n"
+                                          "mampu meningkatkan imunitas dan stamina tubuh agar \n"
+                                          "menjadi lebih kuat.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Meski Anda sudah sembuh dari COVID-19, risiko untuk \n"
+                                          "terinfeksi kembali tetap ada. Oleh karena itu, Anda tetap \n"
+                                          "perlu menerapkan protokol kesehatan dengan baik guna \n"
+                                          "menurunkan risiko infeksi berulang.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Jika beragam cara di atas sudah Anda lakukan tetapi \n"
+                                          "berbagai gejala setelah sembuh dari COVID-19 masih \n"
+                                          "berlangsung dan menghambat aktivitas fisik secara \n"
+                                          "menyeluruh, periksakan diri ke dokter agar dapat diberikan \n"
+                                          "terapi atau pengobatan yang tepat dan sesuai keluhan Anda.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),

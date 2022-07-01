@@ -1,5 +1,6 @@
+import 'package:finalprojec_pmoif20a_wahyu/Menu/ResepAnemia.dart';
 import "package:flutter/material.dart";
-
+import '../Menu/ResepMenuSayuran.dart';
 class Sayuran extends StatefulWidget {
   @override
   _SayuranState createState() => _SayuranState();
@@ -33,7 +34,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Brokoli()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -62,7 +69,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Buncis()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -91,7 +104,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Kol()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -120,7 +139,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => LabuSiam()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -149,7 +174,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Lodeh()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -178,7 +209,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => SayurAsem()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -207,7 +244,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => SayurBayam()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -236,7 +279,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Kangkung()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(
@@ -265,7 +314,13 @@ class _SayuranState extends State<Sayuran>{
                                         shape: RoundedRectangleBorder(
                                             borderRadius: BorderRadius.circular(8.0)),
                                         child: InkWell(
-                                          onTap: () {},
+                                          onTap: ()  {
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) => Toge()),
+                                            );
+                                          },
                                           splashColor: Colors.grey[400],
                                           child: Center(
                                             child: Padding(

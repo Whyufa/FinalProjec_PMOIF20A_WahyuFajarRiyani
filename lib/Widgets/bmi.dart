@@ -1,3 +1,4 @@
+import 'package:finalprojec_pmoif20a_wahyu/Widgets/Akun.dart';
 import 'package:flutter/rendering.dart';
 import "package:flutter/material.dart";
 import 'bmi_result.dart';
@@ -28,7 +29,7 @@ class _BMIState extends State<BMI>{
                         IconButton(icon: Icon(Icons.arrow_back_ios_rounded), onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => hitung()),
+                            MaterialPageRoute(builder: (context) => Profile()),
                           );
                         }),
                         Text("Hitung Berat Ideal", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold, letterSpacing: 1)),

@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
     MenuUtama(),
     Rekomendasi(),
     Tips(),
-    Profile(),
+    ProfileU(),
   ];
 
   @override

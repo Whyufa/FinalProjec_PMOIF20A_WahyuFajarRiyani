@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CaraMemasak extends StatefulWidget {
+class PenambahBeratBdn extends StatefulWidget {
   @override
-  _CaraMemasakState createState() => _CaraMemasakState();
+  _PenambahBeratBdnState createState() => _PenambahBeratBdnState();
 }
 
-class _CaraMemasakState extends State<CaraMemasak> {
+class _PenambahBeratBdnState extends State<PenambahBeratBdn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                     children: [
                       SizedBox(
                         width: 420.0,
-                        height: 1500.0,
+                        height: 1615.0,
                         child: Card(
                           color: Colors.grey.shade100,
                           elevation: 2.0,
@@ -44,8 +44,8 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Direbus atau Dikukus, Cara Memasak Mana \n"
-                                          "Yang Lebih Sehat ?", style: TextStyle(
+                                      Text("Makanan Penambah Berat Badan Bukan yang \n"
+                                          "Sekadar Berlemak", style: TextStyle(
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold),
                                       ),
@@ -57,10 +57,12 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Merebus dan mengukus adalah cara mengolah \n"
-                                          "makanan yang dipercaya sangat menyehatkan. \n"
-                                          "Tapi, di antara kedua cara tersebut, mana \n"
-                                          "yang lebih sehat ?",
+                                      Text("Bagi yang ingin menggemukkan badan, memilih makanan \n"
+                                          "penambah berat badan tidak boleh sembarangan. \n"
+                                          "Mengonsumsi makanan yang mengandung kalori dan lemak \n"
+                                          "tinggi justru dapat meningkatkan risiko Anda mengalami \n"
+                                          "gangguan kesehatan. Simak makanan penambah berat \n"
+                                          "badan yang juga bernutrisi berikut ini.",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -74,14 +76,10 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Perebusan adalah cara memasak dengan cara \n"
-                                          "memanaskan air atau kaldu hingga mendidih, kemudian \n"
-                                          "memasukkan makanan ke dalam air tersebut hingga \n"
-                                          "matang. Sedangkan mengukus adalah proses pematangan \n"
-                                          "makanan dengan menggunakan uap panas yang berasal \n"
-                                          "dari air mendidih. Caranya, panaskan air di dalam \n"
-                                          "panci pemblokiran, lalu taruh makanan di atas \n"
-                                          "pemblokiran sampai matang.",
+                                      Text("Dalam memilih makanan penambah berat badan, kandungan \n"
+                                          "nutrisi di dalam makanan juga harus diperhatikan. Hal ini \n"
+                                          "dimaksudkan agar tubuh Anda tetap mendapatkan asupan \n"
+                                          "nutrisi yang cukup selama proses menaikkan berat badan.",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -94,7 +92,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Image.asset("assets/images/rebus_kukus.png", width: 342.0)
+                                      Image.asset("assets/images/penambah_beratbdn.png", width: 342.0)
                                     ],
                                   ),
                                 ),
@@ -103,104 +101,7 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Jadi, Direbus atau Dikukus ?",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                          fontWeight: FontWeight.bold
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Perlu Anda ketahui bahwa selain jenis makanan itu \n"
-                                          "sendiri, cara memasak atau mengolah makanan juga \n"
-                                          "menentukan kandungan gizi di dalamnya. Jika cara \n"
-                                          "memasaknya salah, makanan sehat juga bisa berubah \n"
-                                          "menjadi sumber penyakit, lho.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Merebus dan mengukus sudah dikenal sebagai cara paling \n"
-                                          "sehat untuk memasak makanan. Kedua cara memasak ini \n"
-                                          "bisa menjaga kandungan kalori makanan karena tidak \n"
-                                          "membutuhkan tambahan minyak atau mentega. Lalu, di \n"
-                                          "antara keduanya, manakah cara memasak yang lebih sehat \n"
-                                          "sebagai lemak.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Baik direbus maupun dikukus, sama sehatnya. Namun, \n"
-                                          "beberapa jenis makanan lebih baik dimasak dengan cara \n"
-                                          "dikukus. Contohnya adalah sayuran.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Untuk memasak sayuran, cara direbus bukanlah cara \n"
-                                          "terbaik. Ini karena nutrisi di dalamnya, seperti vitamin \n"
-                                          "B dan C, dapat larut dalam air mendidih. Jadi, agar Anda \n"
-                                          "tetap bisa mendapatkan nutrisi sayuran yang optimal, \n"
-                                          "masaklah dengan cara dikukus.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Meski begitu, tetap pastikan waktu mengukusnya tidak \n"
-                                          "terlalu lama, karena memasak sayuran terlalu lama bisa \n"
-                                          "menghilangkan nutrisi di dalamnya, serta mengubah warna \n"
-                                          "dan rasa sayuran.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Tips Memasak yang Sehat dan Aman",
+                                      Text("Beragam Makanan Penambah Berat Badan yang Kaya Nutrisi",
                                         style: TextStyle(
                                             fontSize: 13,
                                             fontWeight: FontWeight.bold
@@ -214,8 +115,8 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("Agar semua makanan yang Anda masak tetap bergizi, \n"
-                                          "yuk ikuti tips memasaknya di bawah ini :",
+                                      Text("Berikut adalah beberapa contoh makanan penambah berat \n"
+                                          "badan yang tinggi kandungan nutrisi :",
                                         style: TextStyle(
                                           fontSize: 13,
                                         ),
@@ -228,40 +129,181 @@ class _CaraMemasakState extends State<CaraMemasak> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Text("a. Pastikan makanan yang Anda makan bergizi dan segar. \n"
-                                          "   Selain itu, pastikan peralatan masak dan dapur Anda \n"
-                                          "   bersih agar makanan tidak terkontaminasi bakteri. \n"
-                                          "b. Jangan lupa untuk mencuci semua bahan makanan \n"
-                                          "   sebelum dimasak. \n"
-                                          "c. Jika ingin menggunakan minyak atau mentega, gunakan \n"
-                                          "   secukupnya. Sebaiknya pilih minyak yang sehat, \n"
-                                          "   seperti kanola atau zaitun. \n"
-                                          "d. Batasi jumlah garam yang Anda tambahkan ke masakan. \n"
-                                          "   Mengkonsumsi terlalu banyak garam dapat \n"
-                                          "   menempatkan Anda pada risiko hipertensi, stroke, \n"
-                                          "   dan penyakit jantung. \n"
-                                          "e. Jika Anda ingin rasa yang kuat dalam masakan Anda, \n"
-                                          "   Anda dapat menambahkan berbagai rempah-rempah \n"
-                                          "   dan bumbu.",
-                                        style: TextStyle(
-                                          fontSize: 13,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(12.0),
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text("Meski direbus dan dikukus baik untuk kesehatan, kedua \n"
-                                          "teknik memasak ini juga memiliki kekurangan, yaitu \n"
-                                          "membuat makanan terasa hambar. Terkadang, tidak \n"
-                                          "apa-apa memasak dengan metode lain. Namun, pastikan \n"
-                                          "jenis makanannya sehat, ya !",
+                                      Text("a. Kacang-kacangan",
                                         style: TextStyle(
                                             fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Kacang-kacangan bisa menjadi salah satu camilan atau \n"
+                                          "makanan sehat untuk menambah berat badan. Di dalam \n"
+                                          "satu genggam kacang mengandung sekitar 100 kalori, 7 \n"
+                                          "gram protein, 2 gram serat, dan 18 gram lemak tak jenuh. \n"
+                                          "Sehingga wajar, dengan mengonsumsi dua genggam kacang \n"
+                                          "sehari, Anda bisa mendapatkan kalori yang lebih banyak. \n"
+                                          "Selain dikonsumsi langsung, kacang-kacangan juga bisa \n"
+                                          "dijadikan sebagai selai pada roti.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("b. Alpukat",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Selain kacang-kacangan, buah alpukat juga bisa menjadi \n"
+                                          "pilihan makanan penambah berat badan. Mengonsumsi \n"
+                                          "alpukat berukuran besar dapat memberikan sekitar 200-300 \n"
+                                          "kalori kepada tubuh. Tidak hanya itu, alpukat juga \n"
+                                          "menyediakan vitamin, serat, mineral dan lemak yang baik \n"
+                                          "bagi tubuh. Anda dapat mengonsumsi alpukat secara \n"
+                                          "langsung atau mencampurkannya dengan bahan-bahan lain, \n"
+                                          "seperti yoghurt, susu, selai kacang, dan krim untuk \n"
+                                          "mendapatkan kalori tambahan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("c. Kentang",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Kentang adalah sumber karbohidrat dan kalori. Bagi Anda \n"
+                                          "yang ingin menaikkan berat badan dalam waktu singkat, \n"
+                                          "maka cobalah mengonsumsi makanan ini. Dengan \n"
+                                          "mengonsumsi kentang, Anda bisa memperoleh setidaknya \n"
+                                          "159 kalori. Selain kentang, beberapa makanan lain seperti \n"
+                                          "jagung, ubi jalar, labu, dan biji gandum juga bisa menjadi \n"
+                                          "pilihan makanan penambah berat badan yang sehat.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("d. Daging",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Daging ayam, daging sapi, daging ikan, dan telur merupakan \n"
+                                          "makanan penambah berat badan yang tinggi protein. Protein \n"
+                                          "sendiri adalah salah satu nutrisi yang berperan dalam \n"
+                                          "pembentukan otot, jaringan tubuh, dan peningkatan berat \n"
+                                          "badan.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("e. Susu",
+                                        style: TextStyle(
+                                            fontSize: 13,
+                                            fontWeight: FontWeight.bold
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Meningkatkan asupan kalori tubuh dapat dilakukan dengan \n"
+                                          "mengonsumsi susu setiap harinya. Tidak hanya kalori, susu \n"
+                                          "dan produk olahannya seperti keju dan yoghurt juga \n"
+                                          "mengandung nutrisi penting lain, seperti protein, kalsium, \n"
+                                          "vitamin, serta mineral. Anda bisa mengonsumsinya di pagi \n"
+                                          "maupun malam hari. Dengan begitu, kalori dalam tubuh akan \n"
+                                          "bertambah dan bisa menaikkan berat badan Anda.",
+                                        style: TextStyle(
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(12.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("Di samping menentukan jenis makanan penambah berat \n"
+                                          "badan, Anda juga harus memperbaiki pola makan. Bagi Anda \n"
+                                          "yang memiliki berat badan kurang, disarankan untuk makan \n"
+                                          "dalam porsi lebih kecil namun tingkatkan frekuensinya \n"
+                                          "menjadi 5-6 kali per hari. Hal yang tidak kalah penting \n"
+                                          "adalah memeriksakan diri ke dokter gizi untuk mengetahui \n"
+                                          "penyebab pasti kurangnya berat badan Anda.",
+                                        style: TextStyle(
+                                          fontSize: 13,
                                         ),
                                       ),
                                     ],
