@@ -42,7 +42,7 @@ class _LoginState extends State<Login> {
                       height: 150,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/logo.jpeg'),
+                          image: AssetImage('assets/icon.png'),
                         ),
                       ),
                     ),
