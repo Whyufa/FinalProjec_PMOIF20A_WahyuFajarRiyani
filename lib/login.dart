@@ -1,7 +1,10 @@
 import 'package:finalprojec_pmoif20a_wahyu/Screen/HomeScreenUser.dart';
 import 'package:flutter/material.dart';
-import '../Register.dart';
+import 'register.dart';
 import '../Widgets/MenuUtama.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'forgot.dart';
+import 'home.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);

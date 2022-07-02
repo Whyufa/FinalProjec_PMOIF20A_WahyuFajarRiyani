@@ -1,5 +1,12 @@
+import 'dart:io';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:finalprojec_pmoif20a_wahyu/login.dart';
+import 'home.dart';
+
+import 'login.dart';
+
 class register extends StatefulWidget {
   const register({Key? key}) : super(key: key);
   @override
